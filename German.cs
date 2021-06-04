@@ -14,7 +14,7 @@ namespace ABI.CCK.Scripts.Translation
             {"ABI_UI_BUILDPANEL_HEADING_ACCOUNT_INFO", "Account Informationen"},
             {"ABI_UI_BUILDPANEL_LOGIN_CREDENTIALS_INCORRECT", "Die Login-Daten sind fehlerhaft"},
             {"ABI_UI_BUILDPANEL_LOGIN_BUTTON", "Anmelden"},
-            {"ABI_UI_BUILDPANEL_LOGOUT_BUTTON", "Abemlden"},
+            {"ABI_UI_BUILDPANEL_LOGOUT_BUTTON", "Abmelden"},
             {"ABI_UI_BUILDPANEL_UPLOAD_WORLD_BUTTON", "Welt hochladen"},
             {"ABI_UI_BUILDPANEL_UPLOAD_AVATAR_BUTTON", "Avatar hochladen"},
             {"ABI_UI_BUILDPANEL_UPLOAD_PROP_BUTTON", "Prop hochladen"},

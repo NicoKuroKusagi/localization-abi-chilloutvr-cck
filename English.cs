@@ -251,6 +251,22 @@ namespace ABI.CCK.Scripts.Translation
                 "ABI_UI_AVATAR_INFO_EYE_VISEMES",
                 "For the auto-select visemes feature to work, you will have to select the mesh that includes the face first. This will be the body mesh in most cases."
             },
+            {
+                "ABI_UI_MODULE_WORKSHOP_MISSING_DEPENDENCIES_TITLE",
+                "Dependencies missing in project!"
+            },
+            {
+                "ABI_UI_MODULE_WORKSHOP_MISSING_DEPENDENCIES_WARNING_PREFACE",
+                "The following dependencies are not met"
+            },
+            {
+                "ABI_UI_MODULE_WORKSHOP_MISSING_DEPENDENCIES_FINAL_WARNING",
+                "Please install all dependencies before installing this module!"
+            },
+            {
+                "ABI_UI_MODULE_WORKSHOP_MISSING_DEPENDENCIES_DIALOG_ACCEPT",
+                "Understood"
+            }
         };
     }
 }

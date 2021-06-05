@@ -54,7 +54,7 @@ namespace ABI.CCK.Scripts.Translation
             },
             {
                 "ABI_UI_BUILDPANEL_WORLDS_ERROR_UNITY_UNSUPPORTED",
-                "You are using a unity version that is not supported. Please use Unity 2019.3.1f1 (using Unity Hub makes version management easier)."
+                "You are using a unity version that is not supported. Please use a supported unity version. You can check the supported version corresponding to your CCK version in our documentation."
             },
             {"ABI_UI_BUILDPANEL_UPLOAD_WORLD_BUTTON", "Upload World"},
             {"ABI_UI_BUILDPANEL_UPLOAD_AVATAR_BUTTON", "Upload Avatar"},

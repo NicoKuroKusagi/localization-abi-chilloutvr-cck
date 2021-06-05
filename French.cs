@@ -18,18 +18,18 @@ namespace ABI.CCK.Scripts.Translation
             {"ABI_UI_BUILDPANEL_LOGOUT_DIALOG_TITLE", "Supprimer les identifiants locaux pour le CCK"},
             {
                 "ABI_UI_BUILDPANEL_LOGOUT_DIALOG_BODY",
-                "Ceci va supprimer les identifiants stockés localement. Vous devrez vous réauthentifier. Voulez-vous continuer?"
+                "Ceci va supprimer les identifiants stockés localement. Vous devrez vous réauthentifier. Voulez-vous continuer ?"
             },
-            {"ABI_UI_BUILDPANEL_LOGOUT_DIALOG_ACCEPT", "Oui!"},
+            {"ABI_UI_BUILDPANEL_LOGOUT_DIALOG_ACCEPT", "Oui !"},
             {"ABI_UI_BUILDPANEL_LOGOUT_DIALOG_DECLINE", "Non !"},
 
             {
                 "ABI_UI_BUILDPANEL_UPLOADER_NO_AVATARS_FOUND",
-                "Aucun avatar configuré trouvé dans la scène - CVRAvatar ajouté?"
+                "Aucun avatar configuré trouvé dans la scène - CVRAvatar ajouté ?"
             },
             {
                 "ABI_UI_BUILDPANEL_UPLOADER_NO_SPAWNABLES_FOUND",
-                "Aucun objet instanciable configuré trouvé dans la scène - CVRSpawnable ajouté?"
+                "Aucun objet instanciable configuré trouvé dans la scène - CVRSpawnable ajouté ?"
             },
             {
                 "ABI_UI_BUILDPANEL_WORLDS_WARNING_SPAWNPOINT",
@@ -53,7 +53,7 @@ namespace ABI.CCK.Scripts.Translation
             },
             {
                 "ABI_UI_BUILDPANEL_WORLDS_ERROR_NO_CONTENT",
-                "Aucun contenu trouvé dans la scène courante. Avez-vous oublié d'ajouter un composant descripteur à votre objet de jeu?"
+                "Aucun contenu trouvé dans la scène courante. Avez-vous oublié d'ajouter un composant descripteur à votre objet de jeu ?"
             },
             {
                 "ABI_UI_BUILDPANEL_WORLDS_ERROR_UNITY_UNSUPPORTED",
@@ -79,12 +79,12 @@ namespace ABI.CCK.Scripts.Translation
             {"ABI_UI_BUILDPANEL_SETTINGS_CONTENT_ENCRYPTION", "Changer le Chiffrement de Connexion :"},
             {
                 "ABI_UI_BUILDPANEL_SETTINGS_HINT_CONTENT_ENCRYPTION",
-                "Si vous rencontrez des problèmes pour la mise en ligne essayez de changer en http."
+                "Si vous rencontrez des problèmes pour la mise en ligne essayez de passer en http."
             },
             {"ABI_UI_BUILDPANEL_SETTINGS_CONTENT_REGION", "Région de mise en ligne :"},
             {
                 "ABI_UI_BUILDPANEL_SETTINGS_HINT_CONTENT_REGION",
-                "Vous pouvez changer la Région de mise en ligne pour augmenter votre vitesse d'upload. Votre contenu sera toujours disponible à travers le monde."
+                "Vous pouvez changer la Région de mise en ligne pour augmenter votre vitesse d'envoi. Votre contenu sera toujours disponible à travers le monde."
             },
             {"ABI_UI_BUILDPANEL_SETTINGS_CCK_LANGUAGE", "Langue du CCK :"},
             {
@@ -97,7 +97,7 @@ namespace ABI.CCK.Scripts.Translation
             },
             {
                 "ABI_UI_BUILDPANEL_WARNING_FEEDBACK",
-                "Vous voulez faire une demande de fonctionnalité ? Trouvé un bug ? Publiez le sur notre plateforme de retours utilisateur!"
+                "Vous voulez faire une demande de fonctionnalité ? Trouvé un bug ? Publiez le sur notre plateforme de retours utilisateur !"
             },
             {"ABI_UI_BUILDPANEL_WARNING_MESH_FILTER_MESH_EMPTY", "MeshFilter avec maillage manquant détecté"},
             {
@@ -110,15 +110,15 @@ namespace ABI.CCK.Scripts.Translation
             },
             {
                 "ABI_UI_BUILDPANEL_AVATAR_WARNING_POLYGONS",
-                "Attention : Cet avatar a plus de 100k ({X}) polygones au total. Cela peut poser des problèmes de performances en jeu. Cela ne vous empêche pas de le mettre en ligne."
+                "Attention : Cet avatar a plus de 100k ({X}) polygones au total. Cela peut poser des problèmes de performances en jeu. Cela ne vous empêche pas sa mise en ligne."
             },
             {
                 "ABI_UI_BUILDPANEL_AVATAR_WARNING_SKINNED_MESH_RENDERERS",
-                "Attention : Cet avatar contient plus de 10 ({X}) composants SkinnedMeshRenderer. Cela peut poser des problèmes de performances en jeu. Cela ne vous empêche pas de le mettre en ligne."
+                "Attention : Cet avatar contient plus de 10 ({X}) composants SkinnedMeshRenderer. Cela peut poser des problèmes de performances en jeu. Cela ne vous empêche pas sa mise en ligne."
             },
             {
                 "ABI_UI_BUILDPANEL_AVATAR_WARNING_MATERIALS",
-                "Attention : Cet avatar utilise plus de 20 ({X}) emplacements de materiaux. Cela peut poser des problèmes de performances en jeu. Cela ne vous empêche pas de le mettre en ligne."
+                "Attention : Cet avatar utilise plus de 20 ({X}) emplacements de materiaux. Cela peut poser des problèmes de performances en jeu. Cela ne vous empêche pas sa mise en ligne."
             },
             {
                 "ABI_UI_BUILDPANEL_AVATAR_WARNING_VIEWPOINT",
@@ -126,23 +126,23 @@ namespace ABI.CCK.Scripts.Translation
             },
             {
                 "ABI_UI_BUILDPANEL_AVATAR_WARNING_NON_HUMANOID",
-                "Attention : Votre Avatar n'est pas défini en tant qu'Humanoide."
+                "Attention : Votre Avatar n'est pas défini en tant qu'Humanoid."
             },
             {
                 "ABI_UI_BUILDPANEL_AVATAR_WARNING_LEGACY_BLENDSHAPES",
-                "Attention: Cet avatar n'a aucune legacy blend shape normals. Cela va engendrer une taille de fichier plus grande et des erreurs d'éclairages"
+                "Attention: Cet avatar n'a aucune legacy blend shape normals. Cela va engendrer une taille de fichier plus grande et des erreurs d'éclairages."
             },
             {
                 "ABI_UI_BUILDPANEL_AVATAR_INFO_POLYGONS",
-                "Info : Cet avatar a plus de 50k ({X}) polygones au total. Cela peut poser des problèmes de performances en jeu. Cela ne vous empêche pas de le mettre en ligne."
+                "Info : Cet avatar a plus de 50k ({X}) polygones au total. Cela peut poser des problèmes de performances en jeu. Cela ne vous empêche pas sa mise en ligne."
             },
             {
                 "ABI_UI_BUILDPANEL_AVATAR_INFO_SKINNED_MESH_RENDERERS",
-                "Info : Cet avatar contient plus de 5 ({X}) composants SkinnedMeshRenderer. Cela peut poser des problèmes de performances en jeu. Cela ne vous empêche pas de le mettre en ligne."
+                "Info : Cet avatar contient plus de 5 ({X}) composants SkinnedMeshRenderer. Cela peut poser des problèmes de performances en jeu. Cela ne vous empêche pas sa mise en ligne."
             },
             {
                 "ABI_UI_BUILDPANEL_AVATAR_INFO_MATERIALS",
-                "Info : Cet avatar utilise plus de 10 ({X}) emplacements de materiaux. Cela peut poser des problèmes de performances en jeu. Cela ne vous empêche pas de le mettre en ligne."
+                "Info : Cet avatar utilise plus de 10 ({X}) emplacements de materiaux. Cela peut poser des problèmes de performances en jeu. Cela ne vous empêche pas sa mise en ligne."
             },
             {
                 "ABI_UI_BUILDPANEL_AVATAR_INFO_SMALL",
@@ -159,31 +159,31 @@ namespace ABI.CCK.Scripts.Translation
             },
             {
                 "ABI_UI_BUILDPANEL_PROPS_WARNING_POLYGONS",
-                "Attention : Cet objet instanciable a plus de 100k ({X}) polygones au total. Cela peut poser des problèmes de performances en jeu. Cela ne vous empêche pas d'uploader."
+                "Attention : Cet objet instanciable a plus de 100k ({X}) polygones au total. Cela peut poser des problèmes de performances en jeu. Cela ne vous empêche pas sa mise en ligne."
             },
             {
                 "ABI_UI_BUILDPANEL_PROPS_WARNING_SKINNED_MESH_RENDERERS",
-                "Attention : Cet objet instanciable contient plus de 10 ({X}) composants SkinnedMeshRenderer. Cela peut poser des problèmes de performances en jeu. Cela ne vous empêche pas de le mettre en ligne."
+                "Attention : Cet objet instanciable contient plus de 10 ({X}) composants SkinnedMeshRenderer. Cela peut poser des problèmes de performances en jeu. Cela ne vous empêche pas sa mise en ligne."
             },
             {
                 "ABI_UI_BUILDPANEL_PROPS_WARNING_MATERIALS",
-                "Attention : Cet objet instanciable utilise plus de 20 ({X}) emplacements de materiaux. Cela peut poser des problèmes de performances en jeu. Cela ne vous empêche pas de le mettre en ligne."
+                "Attention : Cet objet instanciable utilise plus de 20 ({X}) emplacements de materiaux. Cela peut poser des problèmes de performances en jeu. Cela ne vous empêche pas sa mise en ligne."
             },
             {
                 "ABI_UI_BUILDPANEL_PROPS_WARNING_LEGACY_BLENDSHAPES",
-                "Attention : Cet objet instanciable n'a aucune legacy blend shape normals. Cela va engendrer une taille de fichier plus grande et des erreurs d'éclairages"
+                "Attention : Cet objet instanciable n'a aucune legacy blend shape normals. Cela va engendrer une taille de fichier plus grande et des erreurs d'éclairages."
             },
             {
                 "ABI_UI_BUILDPANEL_PROPS_INFO_POLYGONS",
-                "Info : Cet objet instanciable a plus de 50k ({X}) polygones au total. Cela peut poser des problèmes de performances en jeu. Cela ne vous empêche pas de le mettre en ligne."
+                "Info : Cet objet instanciable a plus de 50k ({X}) polygones au total. Cela peut poser des problèmes de performances en jeu. Cela ne vous empêche pas sa mise en ligne."
             },
             {
                 "ABI_UI_BUILDPANEL_PROPS_INFO_SKINNED_MESH_RENDERERS",
-                "Info : Cet objet instanciable contient plus de 5 ({X}) composants SkinnedMeshRenderer. Cela peut poser des problèmes de performances en jeu. Cela ne vous empêche pas de le mettre en ligne."
+                "Info : Cet objet instanciable contient plus de 5 ({X}) composants SkinnedMeshRenderer. Cela peut poser des problèmes de performances en jeu. Cela ne vous empêche pas sa mise en ligne."
             },
             {
                 "ABI_UI_BUILDPANEL_PROPS_INFO_MATERIALS",
-                "Info : Cet objet instanciable utilise plus de 10 ({X}) emplacements de materiaux. Cela peut poser des problèmes de performances en jeu. Cela ne vous empêche pas de le mettre en ligne."
+                "Info : Cet objet instanciable utilise plus de 10 ({X}) emplacements de materiaux. Cela peut poser des problèmes de performances en jeu. Cela ne vous empêche pas sa mise en ligne."
             },
             {"ABI_UI_BUILDPANEL_PROPS_UPLOAD_BUTTON", "Mettre en ligne Objet Instanciable (Prop)"},
             {
@@ -192,7 +192,7 @@ namespace ABI.CCK.Scripts.Translation
             },
             {
                 "ABI_UI_BUILDPANEL_ERROR_AVATAR_MISSING_SCRIPTS",
-                "L'avatar ou ses enfants contiennent des scripts manquants. L'upload va échouer tel quel. Supprimez les références de scriptes manquants avant la mise en ligne ou cliquez sur Supprimer tous les scripts manquants pour le faire automatiquement pour vous."
+                "L'avatar ou ses enfants contiennent des scripts manquants. L'envoi va échouer tel quel. Supprimez les références de scriptes manquants avant la mise en ligne ou cliquez sur Supprimer tous les scripts manquants pour le faire automatiquement pour vous."
             },
             {
                 "ABI_UI_ADVAVTR_TRIGGER_MULTIPLE_TRIGGER_HELPBOX",
@@ -223,14 +223,14 @@ namespace ABI.CCK.Scripts.Translation
             {"ABI_UI_ASSET_INFO_DETACH_BUTTON_DIALOG_TITLE", "Détacher le Guid du Gestionnaire d'Info d'Asset"},
             {
                 "ABI_UI_ASSET_INFO_DETACH_BUTTON_DIALOG_BODY",
-                "L'identifiant unique d'asset va être détaché. Ce qui veut dire que votre contenu sera mis en ligne comme nouveau à l'exécution. Continuer?"
+                "L'identifiant unique d'asset va être détaché. Ce qui veut dire que votre contenu sera mis en ligne comme nouveau à l'exécution. Continuer ?"
             },
             {"ABI_UI_ASSET_INFO_DETACH_BUTTON_DIALOG_ACCEPT", "Oui !"},
             {"ABI_UI_ASSET_INFO_DETACH_BUTTON_DIALOG_DENY", "Non !"},
             {"ABI_UI_ASSET_INFO_ATTACH_LABEL", "Identifiant unique"},
             {
                 "ABI_UI_ASSET_INFO_ATTACH_INFO",
-                "Vous n'avez pas besoin de réattacher un Guid si vous ne planifiez pas d'écraser un ancien upload. Un nouveau sera généré à la mise en ligne si aucun n'était attaché."
+                "Vous n'avez pas besoin de réattacher un Guid si vous ne planifiez pas d'écraser un ancien envoi. Un nouveau sera généré à la mise en ligne si aucun n'était attaché."
             },
             {"ABI_UI_ASSET_INFO_ATTACH_BUTTON", "Réattacher le guid"},
             {

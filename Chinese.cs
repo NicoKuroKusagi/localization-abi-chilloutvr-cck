@@ -54,7 +54,7 @@ namespace ABI.CCK.Scripts.Translation
             },
             {
                 "ABI_UI_BUILDPANEL_WORLDS_ERROR_UNITY_UNSUPPORTED",
-                "你正在使用不受支持的unity版本。请使用Unity 2019.3.1f1（使用Unity Hub管理版本将更容易）。"
+                "你正在使用不受支持的unity版本。请使用受支持的unity版本，你可以在我们的文档中检查与你的CCK版本对应的支持版本。"
             },
             {"ABI_UI_BUILDPANEL_UPLOAD_WORLD_BUTTON", "上传世界"},
             {"ABI_UI_BUILDPANEL_UPLOAD_AVATAR_BUTTON", "上传Avatar"},
@@ -251,6 +251,22 @@ namespace ABI.CCK.Scripts.Translation
                 "ABI_UI_AVATAR_INFO_EYE_VISEMES",
                 "要使“自动选择发音嘴型”功能正常工作，必须首先选择包含face的网格。在大多数情况下，这将是body网格。"
             },
+            {
+                "ABI_UI_MODULE_WORKSHOP_MISSING_DEPENDENCIES_TITLE",
+                "项目中缺少依赖项！"
+            },
+            {
+                "ABI_UI_MODULE_WORKSHOP_MISSING_DEPENDENCIES_WARNING_PREFACE",
+                "以下依赖项未满足"
+            },
+            {
+                "ABI_UI_MODULE_WORKSHOP_MISSING_DEPENDENCIES_FINAL_WARNING",
+                "请在安装此模块之前安装所有依赖项！"
+            },
+            {
+                "ABI_UI_MODULE_WORKSHOP_MISSING_DEPENDENCIES_DIALOG_ACCEPT",
+                "了解"
+            }
         };
     }
 }

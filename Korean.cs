@@ -23,34 +23,34 @@ namespace ABI.CCK.Scripts.Translation
             {"ABI_UI_BUILDPANEL_LOGOUT_DIALOG_DECLINE", "아니오!"},
 
             {"ABI_UI_BUILDPANEL_UPLOADER_NO_AVATARS_FOUND",
-            "아바타를 찾을 수 없습니다 - CVR Avatar가 추가되었나요?"},
+            "아바타를 찾을 수 없습니다 - CVR Avatar 컴포넌트가 추가되었나요?"},
             {"ABI_UI_BUILDPANEL_UPLOADER_NO_SPAWNABLES_FOUND",
-            "소환 가능 물체(프롭)을 찾을 수 없습니다 - CVRSpawnable이 추가되었나요?"},
+            "소환 가능 물체(프롭)을 찾을 수 없습니다 - CVRSpawnable 컴포넌트가 추가되었나요?"},
 
             {"ABI_UI_BUILDPANEL_WORLDS_WARNING_SPAWNPOINT",
             "월드에 스폰 장소가 지정되어 있지 않습니다. 하나 혹은 여러 개를 CVRWorld 컴포넌트에 추가하세요. 아니면, CVRWorld 오브젝트의 위치가 기본 스폰 장소가 됩니다."},
             {"ABI_UI_BUILDPANEL_WORLDS_INFO_REFERENCE_CAMERA",
-            "월드에 리퍼런스 카메라(reference camera)가 설정되어 있지 않습니다. 기본 카메라 설정이 사용됩니다."},
+            "월드에 리퍼런스 카메라(Reference camera)가 설정되어 있지 않습니다. 기본 카메라 설정이 사용됩니다."},
             {"ABI_UI_BUILDPANEL_WORLDS_INFO_RESPAWN_HEIGHT",
-            "리스폰 위치가 -500보다 작습니다. 월드 밖으로 떨어질 때 오랜 시간이 걸립니다. 아마 원하는 바가 아닐 가능성이 높습니다."},
+            "리스폰 위치가 -500보다 작습니다. 월드 밖으로 떨어질 때 까지 오랜 시간이 걸립니다. 아마 원하는 바가 아닐 가능성이 높습니다."},
             {"ABI_UI_BUILDPANEL_WORLDS_ERROR_MULTIPLE_CVR_WORLD",
-            "여러 CVRWorld 오브젝트가 씬에 있습니다. 월드를 고장낼 가능성이 높습니다 CVRWorld 프리팹을 이용하거나, CVRWorld 컴포넌트를 하나만 남겨 주세요."},
+            "여러 CVRWorld 오브젝트가 씬에 있습니다. 월드를 고장낼 가능성이 높습니다. CVRWorld 프리팹(Prefab)을 이용하거나, CVRWorld 컴포넌트를 하나만 남겨 주세요."},
             {"ABI_UI_BUILDPANEL_WORLDS_ERROR_WORLD_CONTAINS_AVATAR",
-            "불러와진 씬에는 아바타와 월드 디스크립터(descriptor)가 동시에 존재해서는 안 됩니다. 씬을 맞게 설정해 주세요."},
+            "하나의 씬(Scene)에는 아바타와 월드 디스크립터(Descriptor)가 동시에 존재해서는 안 됩니다. 둘 중 하나는 제거해 주세요."},
             {"ABI_UI_BUILDPANEL_WORLDS_ERROR_NO_CONTENT",
-            "현재 씬에 아무 콘텐츠도 없습니다. 디스크립터 컴포넌트나 게임 오브젝트를 추가하는 것을 잊으셨나요?"},
+            "현재 씬(Scene)에 아무 콘텐츠도 없습니다. 디스크립터(Descriptor) 컴포넌트나 게임 오브젝트를 추가하는 것을 잊으셨나요?"},
             {"ABI_UI_BUILDPANEL_WORLDS_ERROR_UNITY_UNSUPPORTED",
-            "지원되지 않는 유니티 버전을 사용중입니다. 유니티 2019.3.14f1를 사용해 주세요. (유니티 허브를 사용하면 관리가 용이합니다)."},
+            "지원되지 않는 유니티 버전을 사용중입니다. 유니티 2019.3.14f1를 사용해 주세요. 유니티 허브를 사용하면 관리가 용이합니다."},
             {"ABI_UI_BUILDPANEL_UPLOAD_WORLD_BUTTON", "월드 업로드"},
             {"ABI_UI_BUILDPANEL_UPLOAD_AVATAR_BUTTON", "아바타 업로드"},
-            {"ABI_UI_BUILDPANEL_UPLOAD_PROP_BUTTON", "소환 가능 물체(프롭) 업로드"},
-            {"ABI_UI_BUILDPANEL_FIX_IMPORT_SETTINGS", "불러오기(import) 설정 고치기"},
-            {"ABI_UI_BUILDPANEL_UTIL_REMOVE_MISSING_SCRIPTS_BUTTON", "빠진 스크립트 제거"},
+            {"ABI_UI_BUILDPANEL_UPLOAD_PROP_BUTTON", "소환 가능 물체(프롭, Prop) 업로드"},
+            {"ABI_UI_BUILDPANEL_FIX_IMPORT_SETTINGS", "불러오기(Import) 설정 고치기"},
+            {"ABI_UI_BUILDPANEL_UTIL_REMOVE_MISSING_SCRIPTS_BUTTON", "미발견 스크립트 제거"},
             {"ABI_UI_BUILDPANEL_LOGIN_TEXT_USERNAME", "유저 이름"},
             {"ABI_UI_BUILDPANEL_LOGIN_TEXT_ACCESSKEY", "접근 키(Access-Key)"},
             {
                 "ABI_UI_BUILDPANEL_INFOTEXT_DOCUMENTATION",
-                "안내 문서를 읽고, CVR에서 어떻게 콘텐츠를 만드는지 알아내 보세요. 중요 게임 정보 및 엔진 정보를 어떻게 사용하는지에 대한 유용한 튜토리얼도 찾을 수 있습니다."
+                "안내 문서를 읽고, CVR에서 어떻게 콘텐츠를 만드는지 알아보세요. 게임에 대한 정보 엔진을 어떻게 사용하는지에 대한 유용한 튜토리얼도 찾을 수 있습니다."
             },
             {"ABI_UI_BUILDPANEL_INFOTEXT_SIGNIN1", "콘텐츠 제작 키트(CCK) 계정 정보를 활용해 로그인 해 주세요."},
             {"ABI_UI_BUILDPANEL_INFOTEXT_SIGNIN2", "hub.abinteractive.net에서 찾을 수 있습니다."},
@@ -86,16 +86,16 @@ namespace ABI.CCK.Scripts.Translation
             },
             {
                 "ABI_UI_BUILDPANEL_AVATAR_WARNING_MATERIALS",
-                "경고: 이 아바타는 20개 (현재 {X}개) 이상의 머티리얼(material) 슬롯을 사용중입니다. 이는 게임 내에서 성능 저하를 일으킵니다. 업로드가 불가능하지는 않습니다."
+                "경고: 이 아바타는 20개 (현재 {X}개) 이상의 머티리얼(Material) 슬롯을 사용중입니다. 이는 게임 내에서 성능 저하를 일으킵니다. 업로드가 불가능하지는 않습니다."
             },
             {
                 "ABI_UI_BUILDPANEL_AVATAR_WARNING_VIEWPOINT",
-                "경고: 아바타의 시점(view position)이 기본값인 X=0,Y=0,Z=0 으로 설정되어 있습니다. 아바타의 시점이 땅에 고정되어 있다는 의미입니다. 원하는 바가 아닐 가능성이 큽니다."
+                "경고: 아바타의 시점(View position)이 기본값인 X=0,Y=0,Z=0 으로 설정되어 있습니다. 아바타의 시점이 땅에 고정되어 있다는 의미입니다. 원하는 바가 아닐 가능성이 큽니다."
             },
             {"ABI_UI_BUILDPANEL_AVATAR_WARNING_NON_HUMANOID", "경고: 아바타가 휴머노이드로 설정되어 있지 않습니다."},
             {
                 "ABI_UI_BUILDPANEL_AVATAR_WARNING_LEGACY_BLENDSHAPES",
-                "경고: 아바타 불러오기 설정이 이전 블렌드 쉐이프 노말 사용(none legacy blend shape normals)으로 설정되어 있습니다. 아바타 파일의 크기가 커지고, 빛 관련 에러가 생길 가능성이 큽니다"
+                "경고: 아바타 불러오기 설정이 이전 블렌드 쉐이프 노말(Legacy blend shape normals) 사용으로 설정되어 있습니다. 아바타 파일의 크기가 커지고, 빛에 이상하게 영향받을 가능성이 큽니다."
             },
             {
                 "ABI_UI_BUILDPANEL_AVATAR_INFO_POLYGONS",
@@ -107,7 +107,7 @@ namespace ABI.CCK.Scripts.Translation
             },
             {
                 "ABI_UI_BUILDPANEL_AVATAR_INFO_MATERIALS",
-                "정보: 이 아바타는 10개 (현재 {X}개) 이상의 머티리얼(material) 슬롯을 사용중입니다. 이는 게임 내에서 성능 저하를 일으킬 가능성이 있습니다. 업로드가 불가능하지는 않습니다."
+                "정보: 이 아바타는 10개 (현재 {X}개) 이상의 머티리얼(Material) 슬롯을 사용중입니다. 이는 게임 내에서 성능 저하를 일으킬 가능성이 있습니다. 업로드가 불가능하지는 않습니다."
             },
             {
                 "ABI_UI_BUILDPANEL_AVATAR_INFO_SMALL",
@@ -120,23 +120,23 @@ namespace ABI.CCK.Scripts.Translation
             {"ABI_UI_BUILDPANEL_AVATAR_UPLOAD_BUTTON", "아바타 업로드"},
             {
                 "ABI_UI_BUILDPANEL_PROPS_ERROR_MISSING_SCRIPT",
-                "소환 가능한 물체(프롭) 혹은 그 하위 오브젝트에 찾을 수 없는 스크립트가 있습니다. 업로드가 실패할 것입니다. 모든 빠진 스크립트를 제거하거나, 아래 모든 빠진 스크립트 제거 버튼을 눌러 자동으로 제거하세요."
+                "소환 가능한 물체(프롭, Prop) 혹은 그 하위 오브젝트에 찾을 수 없는 스크립트가 있습니다. 업로드가 실패할 것입니다. 모든 미발견 스크립트를 제거하거나, 아래 모든 미발견 스크립트 제거 버튼을 눌러 자동으로 제거하세요."
             },
             {
                 "ABI_UI_BUILDPANEL_PROPS_WARNING_POLYGONS",
-                "경고: 소환 가능한 물체(프롭)는 10만 개 (현재 {X}개) 이상 의 폴리곤을 가지고 있습니다. 이는 게임 내에서 성능 저하를 일으킵니다. 업로드가 불가능하지는 않습니다."
+                "경고: 소환 가능한 물체(프롭, Prop)는 10만 개 (현재 {X}개) 이상 의 폴리곤을 가지고 있습니다. 이는 게임 내에서 성능 저하를 일으킵니다. 업로드가 불가능하지는 않습니다."
             },
             {
                 "ABI_UI_BUILDPANEL_PROPS_WARNING_SKINNED_MESH_RENDERERS",
-                "경고: 이 소환 가능한 물체(프롭)는 10개 (현재 {X}개) 이상의 스킨 메쉬 렌더러(SkinnedMeshRenderer) 컴포넌트를 가지고 있습니다. 이는 게임 내에서 성능 저하를 일으킵니다. 업로드가 불가능하지는 않습니다."
+                "경고: 이 소환 가능한 물체(프롭, Prop)는 10개 (현재 {X}개) 이상의 스킨 메쉬 렌더러(SkinnedMeshRenderer) 컴포넌트를 가지고 있습니다. 이는 게임 내에서 성능 저하를 일으킵니다. 업로드가 불가능하지는 않습니다."
             },
             {
                 "ABI_UI_BUILDPANEL_PROPS_WARNING_MATERIALS",
-                "경고: 이 소환 가능한 물체(프롭)는 20개 ({X}) 이상의 머티리얼(material) 슬롯을 사용중입니다. 이는 게임 내에서 성능 저하를 일으킵니다. 업로드가 불가능하지는 않습니다."
+                "경고: 이 소환 가능한 물체(프롭, Prop)는 20개 ({X}) 이상의 머티리얼(material) 슬롯을 사용중입니다. 이는 게임 내에서 성능 저하를 일으킵니다. 업로드가 불가능하지는 않습니다."
             },
             {
                 "ABI_UI_BUILDPANEL_PROPS_WARNING_LEGACY_BLENDSHAPES",
-                "경고: 소환 가능한 물체(프롭) 불러오기 설정이 이전 블렌드 쉐이프 노말 사용(none legacy blend shape normals)으로 설정되어 있습니다. 아바타 파일의 크기가 커지고, 빛 관련 에러가 생길 가능성이 큽니다"
+                "경고: 소환 가능한 물체(프롭, Prop) 불러오기 설정이 이전 블렌드 쉐이프 노말(Legacy blend shape normals) 사용으로 설정되어 있습니다. 아바타 파일의 크기가 커지고, 빛에 이상하게 영향받을 가능성이 큽니다."
             },
             {
                 "ABI_UI_BUILDPANEL_PROPS_INFO_POLYGONS",
@@ -148,16 +148,16 @@ namespace ABI.CCK.Scripts.Translation
             },
             {
                 "ABI_UI_BUILDPANEL_PROPS_INFO_MATERIALS",
-                "정보: 이 소환 가능한 물체(프롭)는 10개 (현재 {X}개) 이상의 머티리얼(material) 슬롯을 사용중입니다. 이는 게임 내에서 성능 저하를 일으킬 가능성이 있습니다. 업로드가 불가능하지는 않습니다."
+                "정보: 이 소환 가능한 물체(프롭)는 10개 (현재 {X}개) 이상의 머티리얼(Material) 슬롯을 사용중입니다. 이는 게임 내에서 성능 저하를 일으킬 가능성이 있습니다. 업로드가 불가능하지는 않습니다."
             },
             {"ABI_UI_BUILDPANEL_PROPS_UPLOAD_BUTTON", "소환 가능한 물체(프롭) 업로드"},
             {
                 "ABI_UI_BUILDPANEL_ERROR_WORLD_MISSING_SCRIPTS",
-                "씬에 찾을 수 없는 스크립트가 있습니다.업로드가 실패할 것입니다. 모든 빠진 스크립트를 제거하거나, 아래 모든 빠진 스크립트 제거 버튼을 눌러 자동으로 제거하세요."
+                "씬에 찾을 수 없는 스크립트가 있습니다. 업로드가 실패할 것입니다. 모든 미발견 스크립트를 제거하거나, 아래 모든 미발견 스크립트 제거 버튼을 눌러 자동으로 제거하세요."
             },
             {
                 "ABI_UI_BUILDPANEL_ERROR_AVATAR_MISSING_SCRIPTS",
-                "아바타 혹은 그 하위 오브젝트에 찾을 수 없는 스크립트가 있습니다. 업로드가 실패할 것입니다. 모든 빠진 스크립트를 제거하거나, 아래 모든 빠진 스크립트 제거 버튼을 눌러 자동으로 제거하세요."
+                "아바타 혹은 그 하위 오브젝트에 찾을 수 없는 스크립트가 있습니다. 업로드가 실패할 것입니다. 모든 미발견 스크립트를 제거하거나, 아래 모든 미발견 스크립트 제거 버튼을 눌러 자동으로 제거하세요."
             },
             {
                 "ABI_UI_ADVAVTR_TRIGGER_MULTIPLE_TRIGGER_HELPBOX",
@@ -177,11 +177,11 @@ namespace ABI.CCK.Scripts.Translation
             },
             {
                 "ABI_UI_INFOTEXT_WORLDS_NO_AVATARS",
-                "칠아웃VR 월드 오브젝트가 씬에서 발견되었습니다. 아바타는 월드 오브젝트가 제거되기 전에 업로드가 불가능합니다. 아바타 / 소환 가능한 물체는 월드의 일부가 되며, 제거되기 전거나 비활성화 되기 전까지 보입니다."
+                "CVR 월드 오브젝트가 씬(Scene)에서 발견되었습니다. 아바타는 월드 오브젝트가 제거되기 전에 업로드가 불가능합니다. 아바타 / 소환 가능한 물체는 월드의 일부가 되며, 제거되기 전거나 비활성화 되기 전까지 보입니다."
             },
             {
                 "ABI_UI_ASSET_INFO_HEADER_INFORMATION",
-                "이 스크립트는 오브젝트의 메타데이터를 저장하기 위해 있습니다. 무엇을 하고 있는지 모른다면 데이터를 수정하지 마세요. 아바타를 다시 업로드하려면, 식별자를 연결 해제한 뒤, 다시 업로드 하세요."
+                "이 스크립트는 오브젝트의 메타데이터를 저장하기 위해 있습니다. 무엇을 하고 있는지 모른다면 데이터를 수정하지 마세요. 아바타를 다시 업로드하려면, 고유 식별자를 연결 해제한 뒤, 다시 업로드 하세요."
             },
             {"ABI_UI_ASSET_INFO_GUID_LABEL", "현재 부착된 아이디(Guid)는: "},
             {"ABI_UI_ASSET_INFO_DETACH_BUTTON", "고유 식별자 분리"},
@@ -195,24 +195,24 @@ namespace ABI.CCK.Scripts.Translation
             {"ABI_UI_ASSET_INFO_ATTACH_LABEL", "고유 식별자"},
             {
                 "ABI_UI_ASSET_INFO_ATTACH_INFO",
-                "기존 콘텐츠를 덮어씌우는 게 아니라면, 아이디(Guid)재부착을 할 필요가 없습니다. 아무 것도 부착되어 있지 않으면, 새 것이 생성되어 업로드됩니다."
+                "기존 콘텐츠를 덮어씌우는 게 아니라면 아이디(Guid) 재부착을 할 필요가 없습니다. 아무 것도 부착되어 있지 않으면 새 것이 생성되어 업로드됩니다."
             },
             {"ABI_UI_ASSET_INFO_ATTACH_BUTTON", "아이디(Guid) 재부착"},
             {
                 "ABI_UI_AVATAR_INFO_VIEWPOINT",
-                "플레이어 리그(rigs) 카메라 위치를 제어합니다. 눈 사이에 있어야 합니다."
+                "플레이어 리그(Rigs) 카메라 위치를 제어합니다. 눈 사이에 있어야 합니다."
             },
             {
                 "ABI_UI_AVATAR_INFO_VOICE_POSITION",
-                "플레이어 리그(rigs) 음성 위치를 제어합니다. 입에 있어야 합니다."
+                "플레이어 리그(Rigs) 음성 위치를 제어합니다. 입에 있어야 합니다."
             },
             {
                 "ABI_UI_AVATAR_INFO_OVERRIDE_CONTROLLER",
-                "오버라이드(overrides)가 작동하려면, 아바타 오버라이드 컨트롤러(override controller)에 맞는 애니메이터(animator)가 적용되어 있는지 확인해 주세요. 그렇게 안 하면, 애니메이터 슬롯에 덮어씌울 것이 안 보입니다. 예시가 CCK Player Prefabs 폴더에 있습니다."
+                "오버라이드(Overrides)가 작동하려면, 아바타 오버라이드 컨트롤러(Override controller)에 맞는 애니메이터(Animator)가 적용되어 있는지 확인해 주세요. 그렇게 안 하면 애니메이터 슬롯에 덮어씌울 것이 안 보입니다. 예시가 CCK Player Prefabs 폴더에 있습니다."
             },
             {
                 "ABI_UI_AVATAR_INFO_BLinking",
-                "눈 깜박임 블렌드 쉐이프(Blend shape) 사용은 부가적입니다. 활성화할 경우, 실행할 때(runtime) 랜덤 깜박임이 생성됩니다."
+                "눈 깜박임 블렌드 쉐이프(Blend shape) 사용은 부가적입니다. 활성화할 경우, 게임 중에서 랜덤 깜박임이 생성됩니다."
             },
             {
                 "ABI_UI_AVATAR_INFO_EYE_MOVEMENT",
@@ -220,7 +220,7 @@ namespace ABI.CCK.Scripts.Translation
             },
             {
                 "ABI_UI_AVATAR_INFO_EYE_VISEMES",
-                "바이스메(visemes) 자동 선택을 활성화 하려면, 얼굴에 해당하는 메쉬(mesh)를 선택해야 합니다. 보통 body 메쉬에 해당됩니다."
+                "바이스메(Visemes) 자동 선택을 활성화 하려면, 얼굴에 해당하는 메쉬(Mesh)를 선택해야 합니다. 보통 body 메쉬에 해당됩니다."
             },
         };
     }

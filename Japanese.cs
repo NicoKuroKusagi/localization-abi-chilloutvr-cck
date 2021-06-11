@@ -107,7 +107,7 @@ namespace ABI.CCK.Scripts.Translation
             },
             {
                 "ABI_UI_BUILDPANEL_AVATAR_WARNING_POLYGONS",
-                "警告：このアバターは総ポリゴン数が100k({X})を超えています。これはゲーム内でのパフォーマンス問題を引き起こす可能性があります。このメッセージはアップロードを妨げるものではありません。"
+                "警告：このアバターは総ポリゴン数が100k({X})を超過しています。これはゲーム内でのパフォーマンス問題を引き起こす可能性があります。このメッセージはアップロードを妨げるものではありません。"
             },
             {
                 "ABI_UI_BUILDPANEL_AVATAR_WARNING_SKINNED_MESH_RENDERERS",
@@ -128,7 +128,7 @@ namespace ABI.CCK.Scripts.Translation
             },
             {
                 "ABI_UI_BUILDPANEL_AVATAR_INFO_POLYGONS",
-                "情報：このアバターは、総ポリゴン数が50k({X})を超えています。これはゲーム内でのパフォーマンス問題を引き起こす可能性があります。このメッセージはアップロードを妨げるものではありません。"
+                "情報：このアバターは、総ポリゴン数が50k({X})を超過しています。これはゲーム内でのパフォーマンス問題を引き起こす可能性があります。このメッセージはアップロードを妨げるものではありません。"
             },
             {
                 "ABI_UI_BUILDPANEL_AVATAR_INFO_SKINNED_MESH_RENDERERS",
@@ -140,11 +140,11 @@ namespace ABI.CCK.Scripts.Translation
             },
             {
                 "ABI_UI_BUILDPANEL_AVATAR_INFO_SMALL",
-                "情報：このアバターの表示位置は、高さが0.5以下です。このアバターは過度に小さいと思われます。"
+                "情報：このアバターの表示位置は、高さが0.5未満です。このアバターは過度に小さいと思われます。"
             },
             {
                 "ABI_UI_BUILDPANEL_AVATAR_INFO_HUGE",
-                "情報：このアバターの表示位置は、高さが0.5以下です。このアバターは過度に大きいと思われます。"
+                "情報：このアバターの表示位置は、高さが3.0を超過しています。このアバターは過度に大きいと思われます。"
             },
             {"ABI_UI_BUILDPANEL_AVATAR_UPLOAD_BUTTON", "アバターアップロード"},
             {
@@ -153,7 +153,7 @@ namespace ABI.CCK.Scripts.Translation
             },
             {
                 "ABI_UI_BUILDPANEL_PROPS_WARNING_POLYGONS",
-                "警告：このSpawnable object(Prop)は総ポリゴン数が100k({X})を超えています。これはゲーム内でのパフォーマンス問題を引き起こす可能性があります。このメッセージはアップロードを妨げるものではありません。"
+                "警告：このSpawnable object(Prop)は総ポリゴン数が100k({X})を超過しています。これはゲーム内でのパフォーマンス問題を引き起こす可能性があります。このメッセージはアップロードを妨げるものではありません。"
             },
             {
                 "ABI_UI_BUILDPANEL_PROPS_WARNING_SKINNED_MESH_RENDERERS",
@@ -169,7 +169,7 @@ namespace ABI.CCK.Scripts.Translation
             },
             {
                 "ABI_UI_BUILDPANEL_PROPS_INFO_POLYGONS",
-                "情報：このSpawnable object(Prop)は、総ポリゴン数が50k({X})を超えています。これはゲーム内でのパフォーマンス問題を引き起こす可能性があります。このメッセージはアップロードを妨げるものではありません。"
+                "情報：このSpawnable object(Prop)は、総ポリゴン数が50k({X})を超過しています。これはゲーム内でのパフォーマンス問題を引き起こす可能性があります。このメッセージはアップロードを妨げるものではありません。"
             },
             {
                 "ABI_UI_BUILDPANEL_PROPS_INFO_SKINNED_MESH_RENDERERS",

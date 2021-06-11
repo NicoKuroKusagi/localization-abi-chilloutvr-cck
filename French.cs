@@ -84,7 +84,7 @@ namespace ABI.CCK.Scripts.Translation
             {"ABI_UI_BUILDPANEL_SETTINGS_CONTENT_REGION", "Région de mise en ligne :"},
             {
                 "ABI_UI_BUILDPANEL_SETTINGS_HINT_CONTENT_REGION",
-                "Vous pouvez changer la Région de mise en ligne pour augmenter votre vitesse d'envoi. Votre contenu sera toujours disponible à travers le monde."
+                "Vous pouvez changer la Région de mise en ligne pour augmenter votre vitesse d'émission. Votre contenu sera toujours disponible à travers le monde."
             },
             {"ABI_UI_BUILDPANEL_SETTINGS_CCK_LANGUAGE", "Langue du CCK :"},
             {
@@ -192,7 +192,7 @@ namespace ABI.CCK.Scripts.Translation
             },
             {
                 "ABI_UI_BUILDPANEL_ERROR_AVATAR_MISSING_SCRIPTS",
-                "L'avatar ou ses enfants contiennent des scripts manquants. L'envoi va échouer tel quel. Supprimez les références de scriptes manquants avant la mise en ligne ou cliquez sur Supprimer tous les scripts manquants pour le faire automatiquement pour vous."
+                "L'avatar ou ses enfants contiennent des scripts manquants. La mise en ligne va échouer tel quel. Supprimez les références de scriptes manquants avant la mise en ligne ou cliquez sur Supprimer tous les scripts manquants pour le faire automatiquement pour vous."
             },
             {
                 "ABI_UI_ADVAVTR_TRIGGER_MULTIPLE_TRIGGER_HELPBOX",
@@ -230,7 +230,7 @@ namespace ABI.CCK.Scripts.Translation
             {"ABI_UI_ASSET_INFO_ATTACH_LABEL", "Identifiant unique"},
             {
                 "ABI_UI_ASSET_INFO_ATTACH_INFO",
-                "Vous n'avez pas besoin de réattacher un Guid si vous ne planifiez pas d'écraser un ancien envoi. Un nouveau sera généré à la mise en ligne si aucun n'était attaché."
+                "Vous n'avez pas besoin de réattacher un Guid si vous ne planifiez pas d'écraser une ancienne mise en ligne. Un nouveau sera généré à la mise en ligne si aucun n'était attaché."
             },
             {"ABI_UI_ASSET_INFO_ATTACH_BUTTON", "Réattacher le guid"},
             {

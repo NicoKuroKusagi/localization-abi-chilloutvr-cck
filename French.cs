@@ -23,10 +23,7 @@ namespace ABI.CCK.Scripts.Translation
             {"ABI_UI_BUILDPANEL_LOGOUT_DIALOG_ACCEPT", "Oui !"},
             {"ABI_UI_BUILDPANEL_LOGOUT_DIALOG_DECLINE", "Non !"},
 
-            {
-                "ABI_UI_BUILDPANEL_UPLOADER_NO_AVATARS_FOUND",
-                "Aucun avatar configuré trouvé dans la scène - CVRAvatar ajouté ?"
-            },
+            {"ABI_UI_BUILDPANEL_UPLOADER_NO_AVATARS_FOUND", "Aucun avatar configuré trouvé dans la scène - CVRAvatar ajouté ?"},
             {
                 "ABI_UI_BUILDPANEL_UPLOADER_NO_SPAWNABLES_FOUND",
                 "Aucun objet instanciable configuré trouvé dans la scène - CVRSpawnable ajouté ?"
@@ -124,10 +121,7 @@ namespace ABI.CCK.Scripts.Translation
                 "ABI_UI_BUILDPANEL_AVATAR_WARNING_VIEWPOINT",
                 "Attention : La position de la vue de cet avatar est défini par défaut à X=0,Y=0,Z=0. Celà veut dire que la position de votre vue est au sol. Ce n'est probablement pas ce que vous souhaitez."
             },
-            {
-                "ABI_UI_BUILDPANEL_AVATAR_WARNING_NON_HUMANOID",
-                "Attention : Votre Avatar n'est pas défini en tant qu'Humanoid."
-            },
+            {"ABI_UI_BUILDPANEL_AVATAR_WARNING_NON_HUMANOID", "Attention : Votre Avatar n'est pas défini en tant qu'Humanoid."},
             {
                 "ABI_UI_BUILDPANEL_AVATAR_WARNING_LEGACY_BLENDSHAPES",
                 "Attention: Cet avatar n'a aucune legacy blend shape normals. Cela va engendrer une taille de fichier plus grande et des erreurs d'éclairages."
@@ -256,7 +250,8 @@ namespace ABI.CCK.Scripts.Translation
             {
                 "ABI_UI_AVATAR_INFO_EYE_VISEMES",
                 "Pour que la fonctionnalité de sélection automatique des visemes marche, vous devez sélectionner le mesh qui inclus le visage en premier. Ce sera le mesh du corp (body) dans la plupart des cas."
-            }, {
+            }, 
+            {
                 "ABI_UI_MODULE_WORKSHOP_MISSING_DEPENDENCIES_TITLE",
                 "Dépendances manquants dans le projet !"
             },

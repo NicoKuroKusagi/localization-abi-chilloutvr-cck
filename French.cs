@@ -237,7 +237,7 @@ namespace ABI.CCK.Scripts.Translation
             },
             {
                 "ABI_UI_AVATAR_INFO_OVERRIDE_CONTROLLER",
-                "Pour que les overrides fonctionnent, veuillez faire en sorte que le bon animateur soit assigné dans le contrôleur d'override. Ou sinon, vous ne verrez pas les emplacements de l'animateur à override. Un example pour cela se trouve dans le dossier CCK Player Prefabs."
+                "Pour que les surcharges fonctionnent, veuillez faire en sorte que le bon animateur soit assigné dans le contrôleur de surcharge. Ou sinon, vous ne verrez pas les emplacements de l'animateur à surcharger. Un example pour cela se trouve dans le dossier CCK Player Prefabs."
             },
             {
                 "ABI_UI_AVATAR_INFO_BLinking",

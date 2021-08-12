@@ -202,7 +202,7 @@ namespace ABI.CCK.Scripts.Translation
             },
             {
                 "ABI_UI_ADVAVTR_TRIGGER_PARTICLE_HELPBOX",
-                "Activer cette option autorisera les systèmes de particules qui ont un pointeur sur le même GameObject pour activer ce trigger. Une particule ne peut délencher que le Trigger On Enter."
+                "Activer cette option autorisera les systèmes de particules qui ont un pointeur sur le même GameObject pour activer ce Déclencheur. Une particule ne peut que déclencher le Déclencheur On Enter."
             },
             {
                 "ABI_UI_INFOTEXT_WORLDS_NO_AVATARS",

@@ -78,10 +78,10 @@ namespace ABI.CCK.Scripts.Translation
                 "ABI_UI_BUILDPANEL_SETTINGS_HINT_CONTENT_ENCRYPTION",
                 "Если Вы испытываете проблемы с загрузкой, попробуйте переключиться на http"
             },
-            {"ABI_UI_BUILDPANEL_SETTINGS_CONTENT_REGION", "Регион для загрузки:"},
+            {"ABI_UI_BUILDPANEL_SETTINGS_CONTENT_REGION", "Предпочтительный Регион для загрузки:"},
             {
                 "ABI_UI_BUILDPANEL_SETTINGS_HINT_CONTENT_REGION",
-                "Вы можете выбрать регион для улучшения скорости загрузки. Ваш контент будет доступен по всему миру вне зависимости от выбранного региона."
+                "Вы можете выбрать предпочтительный регион, чтобы увеличить скорость загрузки. Если выбранный регион недоступен, другой регион будет выбран автоматически. Ваш контент будет доступен везде, независимо от региона, выбранного для загрузки."
             },
             {"ABI_UI_BUILDPANEL_SETTINGS_CCK_LANGUAGE", "Язык CCK:"},
             {
@@ -251,6 +251,98 @@ namespace ABI.CCK.Scripts.Translation
                 "ABI_UI_AVATAR_INFO_EYE_VISEMES",
                 "Для использования автоматического выбора визем нужно сперва выбрать меш включающий в себя лицо аватара. Обычно это меш с названием Body."
             },
+            {
+                "ABI_UI_MODULE_WORKSHOP_MISSING_DEPENDENCIES_TITLE",
+                "В проекте отсутствуют зависимости!"
+            },
+            {
+                "ABI_UI_MODULE_WORKSHOP_MISSING_DEPENDENCIES_WARNING_PREFACE",
+                "Следующие зависимости не выполняются"
+            },
+            {
+                "ABI_UI_MODULE_WORKSHOP_MISSING_DEPENDENCIES_FINAL_WARNING",
+                "Пожалуйста, установите все зависимости перед установкой этого модуля!"
+            },
+            {
+                "ABI_UI_MODULE_WORKSHOP_MISSING_DEPENDENCIES_DIALOG_ACCEPT",
+                "Понятно"
+            },
+            { "ABI_UI_BUILD_RUNTIME_HEADER", "Загрузить контент в ChilloutVR" },
+            { "ABI_UI_BUILD_RUNTIME_BTN_NEXT", "Перейти к следующему шагу" },
+            { "ABI_UI_BUILD_RUNTIME_BTN_PREV", "Вернуться к предыдущему шагу" },
+            { "ABI_UI_BUILD_RUNTIME_BTN_NEW_PICTURE", "Заменить изображение" },
+            { "ABI_UI_BUILDSTEP_FILTERTAGS", "Теги Фильтров" },
+            { "ABI_UI_BUILDSTEP_DETAILS", "Детали" },
+            { "ABI_UI_BUILDSTEP_LEGAL", "Юридическая гарантия" },
+            { "ABI_UI_BUILDSTEP_UPLOAD", "Загрузка контента" },
+            { "ABI_UI_BUILDSTEP_DETAILS_NAME_ROW", "Имя:" },
+            { "ABI_UI_BUILDSTEP_DETAILS_DESC_ROW", "Описание:" },
+            { "ABI_UI_BUILDSTEP_DETAILS_NAME_PLACEHOLDER", "Имя объекта (обязательно!)" },
+            { "ABI_UI_BUILDSTEP_DETAILS_DESC_PLACEHOLDER", "Описание объекта" },
+            { "ABI_UI_BUILDSTEP_DETAILS_CHANGELOG_PLACEHOLDER", "Журнал изменений - расскажите пользователям о том, что вы изменили или добавили" },
+            {
+                "ABI_UI_BUILDSTEP_DETAILS_WARNING_NEW_OBJECT",
+                "Этот объект загружается впервые. Загрузка фотографии профиля обязательна, поэтому вам необходимо загрузить изображение."
+            },
+            {
+                "ABI_UI_BUILDSTEP_DETAILS_WARNING_UPDATING_OBJECT",
+                "Вы собираетесь обновить этот объект. Изменение описания или названия недоступно при обновлении этого объекта. При необходимости измените их в Хабе."
+            },
+            {
+                "ABI_UI_BUILDSTEP_DETAILS_SET_ACTIVE_FILE",
+                "Установите эту загрузку в качестве активного файла для целевой платформы"
+            },
+            {
+                "ABI_UI_BUILDSTEP_DETAILS_LEGAL_PERMISSION",
+                "Настоящим я подтверждаю, что загружаемый мной контент принадлежит мне или имеет лицензию. Я знаю, что загрузка защищенного авторским правом контента без разрешения авторов может привести к блокировке моего аккаунта и/или юридическим последствиям. Я знаю, что должен полностью соблюдать все правила создания контента, указанные в условиях предоставления услуг Alpha Blend Interactive."
+            },
+            {
+                "ABI_UI_BUILDSTEP_DETAILS_LEGAL_TAGS",
+                "Настоящим я подтверждаю, что теги установлены правильно и соответствуют загруженному содержимому. Я знаю, что сознательная установка неправильных тегов является серьезным правонарушением. Я знаю, что мой аккаунт будет наказан, если я буду постоянно устанавливать неправильные теги."
+            },
+            {
+                "ABI_UI_BUILDSTEP_UPLOAD_STEP_DETAILS",
+                "Сейчас ваш контент загружается в нашу сеть. Процесс загрузки разбит на различные этапы. После загрузки файла в нашу сеть, файл пройдет автоматические проверки безопасности, после их прохождения мы зашифруем ваш пакет и отправим его на наш CDN. Вы можете проверить текущий статус вашей загрузки ниже."
+            },
+            {
+                "ABI_UI_BUILDSTEP_UPLOAD_DETAILS_MISSING",
+                "Для загрузки контента на нашу платформу требуется имя. При загрузке нового объекта не забудьте дать ему соответствующее имя. Вы будете отправлены обратно на страницу деталей для ввода имени."
+            },
+            {
+                "ABI_UI_BUILDSTEP_UPLOAD_LEGAL_MISSING",
+                "Для загрузки на нашу платформу вы должны подтвердить, что вам разрешено загружать указанный контент и что все установленные теги верны. Вы будете отправлены обратно на юридическую страницу, чтобы просмотреть и принять юридическую гарантию."
+            },
+            { "ABI_UI_DETAILS_HEAD_CHANGELOG", "Изменения в контенте" },
+            { "ABI_UI_DETAILS_HEAD_STATISTICS", "Статистика файлов" },
+            { "ABI_UI_LEGAL_HEAD_OWNERSHIP", "Юридическая гарантия: Право собственности и авторское право" },
+            { "ABI_UI_LEGAL_HEAD_TAGS", "Юридическая гарантия: Теги" },
+            { "ABI_UI_TAGS_HEADER_AUDIO", "Аудиальный опыт" },
+            { "ABI_UI_TAGS_HEADER_VISUAL", "Визуальный опыт" },
+            { "ABI_UI_TAGS_HEADER_CONTENT", "Контент" },
+            { "ABI_UI_TAGS_HEADER_NSFW", "Возрастная классификация" },
+            { "ABI_UI_TAGS_LOUD_AUDIO", "Громкое аудио" },
+            { "ABI_UI_TAGS_LR_AUDIO", "Аудио дальнего радиуса действия" },
+            { "ABI_UI_TAGS_SPAWN_AUDIO", "Спаун аудио" },
+            { "ABI_UI_TAGS_CONTAINS_MUSIC", "Содержит музыку" },
+            { "ABI_UI_TAGS_FLASHING_COLORS", "Мигающие цвета" },
+            { "ABI_UI_TAGS_FLASHING_LIGHTS", "Мигающий свет" },
+            { "ABI_UI_TAGS_EXTREMELY_BRIGHT", "Очень яркий" },
+            { "ABI_UI_TAGS_SCREEN_EFFECTS", "Экранные эффекты" },
+            { "ABI_UI_TAGS_PARTICLE_SYSTEMS", "Системы частиц" },
+            { "ABI_UI_TAGS_VIOLENCE", "Насилие" },
+            { "ABI_UI_TAGS_GORE", "Гуро" },
+            { "ABI_UI_TAGS_HORROR", "Ужас" },
+            { "ABI_UI_TAGS_JUMPSCARE", "Джампскейр" },
+            { "ABI_UI_TAGS_HUGE", "Чрезмерно большой" },
+            { "ABI_UI_TAGS_SMALL", "Чрезмерно маленький" },
+            { "ABI_UI_TAGS_SUGGESTIVE", "Суггестивный" },
+            { "ABI_UI_TAGS_NUDITY", "Нагота" },
+            { "ABI_UI_API_RESPONSE_HEAD", "Текущее состояние" },
+            { "ABI_UI_API_RESPONSES_UPLOADED", "Файл загружен. Теперь обрабатываем файл." },
+            { "ABI_UI_API_RESPONSES_SECURITY_CHECKING", "Пакет с активами сейчас проверяется нашей системой безопасности." },
+            { "ABI_UI_API_RESPONSES_ENCRYPTING", "Ваш файл пакета сейчас зашифровывается." },
+            { "ABI_UI_API_RESPONSES_PUSHING", "Проверка завершена. Сейчас файл передается в наше хранилище." },
+            { "ABI_UI_API_RESPONSES_FINISHED", "Загрузка завершена. Ваш контент теперь доступен в игре." },
         };
     }
 }

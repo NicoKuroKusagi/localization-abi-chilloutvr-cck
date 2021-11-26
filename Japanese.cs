@@ -330,7 +330,7 @@ namespace ABI.CCK.Scripts.Translation
             { "ABI_UI_TAGS_SCREEN_EFFECTS", "画面効果" },
             { "ABI_UI_TAGS_PARTICLE_SYSTEMS", "パーティクルシステム" },
             { "ABI_UI_TAGS_VIOLENCE", "暴力表現" },
-            { "ABI_UI_TAGS_GORE", "欠損表現" },
+            { "ABI_UI_TAGS_GORE", "流血や残虐を伴う表現" },
             { "ABI_UI_TAGS_HORROR", "ホラー表現" },
             { "ABI_UI_TAGS_JUMPSCARE", "音や画像で驚かせるホラー表現" },
             { "ABI_UI_TAGS_HUGE", "過度に大きい" },

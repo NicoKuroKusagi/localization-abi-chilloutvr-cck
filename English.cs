@@ -78,10 +78,10 @@ namespace ABI.CCK.Scripts.Translation
                 "ABI_UI_BUILDPANEL_SETTINGS_HINT_CONTENT_ENCRYPTION",
                 "If you have Problems uploading try switching to http."
             },
-            {"ABI_UI_BUILDPANEL_SETTINGS_CONTENT_REGION", "Upload Region:"},
+            {"ABI_UI_BUILDPANEL_SETTINGS_CONTENT_REGION", "Preferred Upload Region:"},
             {
                 "ABI_UI_BUILDPANEL_SETTINGS_HINT_CONTENT_REGION",
-                "You can switch the Upload Region to increase your upload speed. Your content will still be available worldwide."
+                "You can switch the preferred Upload Region to increase your upload speed. If the preferred region is unavailable, another region will be selected automatically. Your content is available everywhere, independently of the region chosen to upload."
             },
             {"ABI_UI_BUILDPANEL_SETTINGS_CCK_LANGUAGE", "CCK Language:"},
             {
@@ -266,7 +266,83 @@ namespace ABI.CCK.Scripts.Translation
             {
                 "ABI_UI_MODULE_WORKSHOP_MISSING_DEPENDENCIES_DIALOG_ACCEPT",
                 "Understood"
-            }
+            },
+            { "ABI_UI_BUILD_RUNTIME_HEADER", "Upload content to ChilloutVR" },
+            { "ABI_UI_BUILD_RUNTIME_BTN_NEXT", "Continue to next step" },
+            { "ABI_UI_BUILD_RUNTIME_BTN_PREV", "Back to last step" },
+            { "ABI_UI_BUILD_RUNTIME_BTN_NEW_PICTURE", "Replace image" },
+            { "ABI_UI_BUILDSTEP_FILTERTAGS", "Filter Tags" },
+            { "ABI_UI_BUILDSTEP_DETAILS", "Details" },
+            { "ABI_UI_BUILDSTEP_LEGAL", "Legal Assurance" },
+            { "ABI_UI_BUILDSTEP_UPLOAD", "Upload Content" },
+            { "ABI_UI_BUILDSTEP_DETAILS_NAME_ROW", "Name:" },
+            { "ABI_UI_BUILDSTEP_DETAILS_DESC_ROW", "Description:" },
+            { "ABI_UI_BUILDSTEP_DETAILS_NAME_PLACEHOLDER", "Object name (required!)" },
+            { "ABI_UI_BUILDSTEP_DETAILS_DESC_PLACEHOLDER", "Object description" },
+            { "ABI_UI_BUILDSTEP_DETAILS_CHANGELOG_PLACEHOLDER", "Object changelog - tell users what you have changed or added" },
+            {
+                "ABI_UI_BUILDSTEP_DETAILS_WARNING_NEW_OBJECT", 
+                "This object is uploaded for the first time. Uploading a profile picture is required, as such the option to not upload any image is not available."
+            },
+            {
+                "ABI_UI_BUILDSTEP_DETAILS_WARNING_UPDATING_OBJECT", 
+                "You are about to update this object. Changing description or name is not available while updating this object. Please change it on the hub if required."
+            },
+            {
+                "ABI_UI_BUILDSTEP_DETAILS_SET_ACTIVE_FILE", 
+                "Set this upload as the active file for the target platform"
+            },
+            {
+                "ABI_UI_BUILDSTEP_DETAILS_LEGAL_PERMISSION", 
+                "I hereby certify that my uploaded content belongs to or is licensed to me. I know that uploading copyrighted content without the authors permission can get my account restricted and / or have legal consequences. I know that i have to fully adhere to any and all content creation rules mentioned in the terms of service of Alpha Blend Interactive."
+            },
+            {
+                "ABI_UI_BUILDSTEP_DETAILS_LEGAL_TAGS", 
+                "I hereby certify that the tags are set correctly and fit to the uploaded content. I know that knowingly setting the wrong tags is a serious offense. I know that my account will be punished if i continuously set the wrong tags."
+            },
+            {
+                "ABI_UI_BUILDSTEP_UPLOAD_STEP_DETAILS", 
+                "Your content is now being uploaded to our network. The upload process is split into various steps. After uploading the file to our network, the file will undergo automatic security checks, after they were passed, we will encrypt your bundle and push it to our CDN. You can check the current status of your upload below."
+            },
+            {
+                "ABI_UI_BUILDSTEP_UPLOAD_DETAILS_MISSING", 
+                "To upload content to our platform, a name is required. When uploading a new object, make sure to name it accordingly. You will now be sent back to the details page to enter a name."
+            },
+            {
+                "ABI_UI_BUILDSTEP_UPLOAD_LEGAL_MISSING", 
+                "To upload to our platform, you have to certify that you are permitted to upload said content and that all set tags are correct. You will now be sent back to the legal page to review and accept the legal assurance."
+            },
+            { "ABI_UI_DETAILS_HEAD_CHANGELOG", "Content Changelog" },
+            { "ABI_UI_DETAILS_HEAD_STATISTICS", "File Statistics" },
+            { "ABI_UI_LEGAL_HEAD_OWNERSHIP", "Legal Assurance: Ownership & Copyright" },
+            { "ABI_UI_LEGAL_HEAD_TAGS", "Legal Assurance: Tagging" },
+            { "ABI_UI_TAGS_HEADER_AUDIO", "Audible Experience" },
+            { "ABI_UI_TAGS_HEADER_VISUAL", "Visual Experience" },
+            { "ABI_UI_TAGS_HEADER_CONTENT", "Content" },
+            { "ABI_UI_TAGS_HEADER_NSFW", "Age Gate Classification" },
+            { "ABI_UI_TAGS_LOUD_AUDIO", "Loud Audio" },
+            { "ABI_UI_TAGS_LR_AUDIO", "Long-Range Audio" },
+            { "ABI_UI_TAGS_SPAWN_AUDIO", "Spawn Audio" },
+            { "ABI_UI_TAGS_CONTAINS_MUSIC", "Contains Music" },
+            { "ABI_UI_TAGS_FLASHING_COLORS", "Flashing Colors" },
+            { "ABI_UI_TAGS_FLASHING_LIGHTS", "Flashing Lights" },
+            { "ABI_UI_TAGS_EXTREMELY_BRIGHT", "Extremely Bright" },
+            { "ABI_UI_TAGS_SCREEN_EFFECTS", "Screen Effects" },
+            { "ABI_UI_TAGS_PARTICLE_SYSTEMS", "Particle Systems" },
+            { "ABI_UI_TAGS_VIOLENCE", "Violence" },
+            { "ABI_UI_TAGS_GORE", "Gore" },
+            { "ABI_UI_TAGS_HORROR", "Horror" },
+            { "ABI_UI_TAGS_JUMPSCARE", "Jumpscare" },
+            { "ABI_UI_TAGS_HUGE", "Excessively Huge" },
+            { "ABI_UI_TAGS_SMALL", "Excessively Small" },
+            { "ABI_UI_TAGS_SUGGESTIVE", "Suggestive" },
+            { "ABI_UI_TAGS_NUDITY", "Nudity" },
+            { "ABI_UI_API_RESPONSE_HEAD", "Current Status" },
+            { "ABI_UI_API_RESPONSES_UPLOADED", "File is uploaded. Now processing file." },
+            { "ABI_UI_API_RESPONSES_SECURITY_CHECKING", "The asset bundle is currently being checked by our security system." },
+            { "ABI_UI_API_RESPONSES_ENCRYPTING", "Your asset bundle file is currently being encrypted." },
+            { "ABI_UI_API_RESPONSES_PUSHING", "Checks are complete. The file is currently being transferred to our storage." },
+            { "ABI_UI_API_RESPONSES_FINISHED", "Upload complete. Your content is now available in the game." },
         };
     }
 }

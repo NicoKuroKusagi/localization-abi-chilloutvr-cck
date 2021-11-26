@@ -78,10 +78,10 @@ namespace ABI.CCK.Scripts.Translation
                 "ABI_UI_BUILDPANEL_SETTINGS_HINT_CONTENT_ENCRYPTION",
                 "如果上传遇到问题，请尝试切换到http。"
             },
-            {"ABI_UI_BUILDPANEL_SETTINGS_CONTENT_REGION", "上传地域："},
+            {"ABI_UI_BUILDPANEL_SETTINGS_CONTENT_REGION", "首选上传地域："},
             {
                 "ABI_UI_BUILDPANEL_SETTINGS_HINT_CONTENT_REGION",
-                "你可以切换上传地域来提高上传速度。你的内容仍将在所有地域内可用。"
+                "你可以切换到首选上传地域来提高上传速度。如果首选地域不可用，另外的地域将被自动选择。你的内容在所有地域内都可用，与选择的用于上传的地域无关。"
             },
             {"ABI_UI_BUILDPANEL_SETTINGS_CCK_LANGUAGE", "CCK语言:"},
             {
@@ -266,7 +266,83 @@ namespace ABI.CCK.Scripts.Translation
             {
                 "ABI_UI_MODULE_WORKSHOP_MISSING_DEPENDENCIES_DIALOG_ACCEPT",
                 "了解"
-            }
+            },
+            { "ABI_UI_BUILD_RUNTIME_HEADER", "上传内容到ChilloutVR" },
+            { "ABI_UI_BUILD_RUNTIME_BTN_NEXT", "继续下一步" },
+            { "ABI_UI_BUILD_RUNTIME_BTN_PREV", "返回上一步" },
+            { "ABI_UI_BUILD_RUNTIME_BTN_NEW_PICTURE", "替换图像" },
+            { "ABI_UI_BUILDSTEP_FILTERTAGS", "过滤标签" },
+            { "ABI_UI_BUILDSTEP_DETAILS", "详情" },
+            { "ABI_UI_BUILDSTEP_LEGAL", "法律保证" },
+            { "ABI_UI_BUILDSTEP_UPLOAD", "上传内容" },
+            { "ABI_UI_BUILDSTEP_DETAILS_NAME_ROW", "名称：" },
+            { "ABI_UI_BUILDSTEP_DETAILS_DESC_ROW", "描述：" },
+            { "ABI_UI_BUILDSTEP_DETAILS_NAME_PLACEHOLDER", "对象名称（必填！）" },
+            { "ABI_UI_BUILDSTEP_DETAILS_DESC_PLACEHOLDER", "对象描述" },
+            { "ABI_UI_BUILDSTEP_DETAILS_CHANGELOG_PLACEHOLDER", "对象更改日志-告诉用户你更改或添加了什么" },
+            {
+                "ABI_UI_BUILDSTEP_DETAILS_WARNING_NEW_OBJECT", 
+                "这个对象是第一次上传。必须上传资料图片，因此，不上传任何图像的选项不可用。"
+            },
+            {
+                "ABI_UI_BUILDSTEP_DETAILS_WARNING_UPDATING_OBJECT", 
+                "你将要更新此对象。更新此对象时无法更改描述或名称。如果需要请在hub上进行更改。"
+            },
+            {
+                "ABI_UI_BUILDSTEP_DETAILS_SET_ACTIVE_FILE", 
+                "将此上传设置为目标平台的活动文件"
+            },
+            {
+                "ABI_UI_BUILDSTEP_DETAILS_LEGAL_PERMISSION", 
+                "本人特此证明，我上传的内容属于我或已获得许可。我知道未经作者许可上传受版权保护的内容可能会导致我的帐户被限制，并且/或者产生法律后果。我知道我必须完全遵守Alpha Blend Interactive服务条款中提及的任何和所有内容创建规矩。"
+            },
+            {
+                "ABI_UI_BUILDSTEP_DETAILS_LEGAL_TAGS", 
+                "本人特此证明，所有标签设置正确，符合上传的内容。我知道故意设置错误的标签是严重的违规行为。我知道如果我连续不断地设置错误的标签将导致帐户受到惩罚。"
+            },
+            {
+                "ABI_UI_BUILDSTEP_UPLOAD_STEP_DETAILS", 
+                "你的内容正在上传到我们的网络。上传过程分为几个步骤。文件上传到我们的网络后，该文件将自动进行安全检查，通过检查后，我们将加密你的资源包并推送到我们的CDN。你可以在下面检查当前的上传状态。"
+            },
+            {
+                "ABI_UI_BUILDSTEP_UPLOAD_DETAILS_MISSING", 
+                "要将内容上传到我们的平台，需要一个名称。上传新对象时，请确保对它进行相应的命名。你将被返回到详情页来输入一个名字。"
+            },
+            {
+                "ABI_UI_BUILDSTEP_UPLOAD_LEGAL_MISSING", 
+                "要将内容上传到我们的平台，你必须证明你已被允许上传上述内容，并且设置的所有标签都是正确的。你将被返回到法律信息页面查看并同意法律保证。"
+            },
+            { "ABI_UI_DETAILS_HEAD_CHANGELOG", "内容更改日志" },
+            { "ABI_UI_DETAILS_HEAD_STATISTICS", "文件统计" },
+            { "ABI_UI_LEGAL_HEAD_OWNERSHIP", "法律保证：所有权和版权" },
+            { "ABI_UI_LEGAL_HEAD_TAGS", "法律保证：标签" },
+            { "ABI_UI_TAGS_HEADER_AUDIO", "听觉体验" },
+            { "ABI_UI_TAGS_HEADER_VISUAL", "视觉体验" },
+            { "ABI_UI_TAGS_HEADER_CONTENT", "内容" },
+            { "ABI_UI_TAGS_HEADER_NSFW", "年龄审查类（18禁）" },
+            { "ABI_UI_TAGS_LOUD_AUDIO", "很响的音频" },
+            { "ABI_UI_TAGS_LR_AUDIO", "距离很远的音频" },
+            { "ABI_UI_TAGS_SPAWN_AUDIO", "重生时的音频" },
+            { "ABI_UI_TAGS_CONTAINS_MUSIC", "包含音乐" },
+            { "ABI_UI_TAGS_FLASHING_COLORS", "闪烁的颜色" },
+            { "ABI_UI_TAGS_FLASHING_LIGHTS", "闪烁的灯光" },
+            { "ABI_UI_TAGS_EXTREMELY_BRIGHT", "非常的亮" },
+            { "ABI_UI_TAGS_SCREEN_EFFECTS", "屏幕效果" },
+            { "ABI_UI_TAGS_PARTICLE_SYSTEMS", "粒子系统" },
+            { "ABI_UI_TAGS_VIOLENCE", "暴力" },
+            { "ABI_UI_TAGS_GORE", "血腥" },
+            { "ABI_UI_TAGS_HORROR", "恐怖" },
+            { "ABI_UI_TAGS_JUMPSCARE", "恐吓" },
+            { "ABI_UI_TAGS_HUGE", "特别的大" },
+            { "ABI_UI_TAGS_SMALL", "特别的小" },
+            { "ABI_UI_TAGS_SUGGESTIVE", "暗示性" },
+            { "ABI_UI_TAGS_NUDITY", "裸露" },
+            { "ABI_UI_API_RESPONSE_HEAD", "当前状态" },
+            { "ABI_UI_API_RESPONSES_UPLOADED", "文件已上传。现在正在处理文件。" },
+            { "ABI_UI_API_RESPONSES_SECURITY_CHECKING", "我们的安全系统目前正在检查资源包。" },
+            { "ABI_UI_API_RESPONSES_ENCRYPTING", "你的资源包正在被加密。" },
+            { "ABI_UI_API_RESPONSES_PUSHING", "检查完毕。该文件当前正在被传输到我们的存储。" },
+            { "ABI_UI_API_RESPONSES_FINISHED", "上传完毕。你的内容现在在游戏中可用了。" },
         };
     }
 }

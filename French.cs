@@ -202,7 +202,7 @@ namespace ABI.CCK.Scripts.Translation
             },
             {
                 "ABI_UI_ADVAVTR_TRIGGER_PARTICLE_HELPBOX",
-                "Activer cette option autorisera les systèmes de particules qui ont un pointeur sur le même GameObject pour activer ce Déclencheur. Une particule ne peut que déclencher le Déclencheur On Enter."
+                "Activer cette option autorisera les systèmes de particules qui ont un pointeur sur le même GameObject pour activer ce trigger. Une particule ne peut délencher que le Trigger On Enter."
             },
             {
                 "ABI_UI_INFOTEXT_WORLDS_NO_AVATARS",
@@ -237,7 +237,7 @@ namespace ABI.CCK.Scripts.Translation
             },
             {
                 "ABI_UI_AVATAR_INFO_OVERRIDE_CONTROLLER",
-                "Pour que les surcharges fonctionnent, veuillez faire en sorte que le bon animateur soit assigné dans le contrôleur de surcharge. Ou sinon, vous ne verrez pas les emplacements de l'animateur à surcharger. Un example pour cela se trouve dans le dossier CCK Player Prefabs."
+                "Pour que les overrides fonctionnent, veuillez faire en sorte que le bon animateur soit assigné dans le contrôleur d'override. Ou sinon, vous ne verrez pas les emplacements de l'animateur à override. Un example pour cela se trouve dans le dossier CCK Player Prefabs."
             },
             {
                 "ABI_UI_AVATAR_INFO_BLinking",
@@ -266,7 +266,89 @@ namespace ABI.CCK.Scripts.Translation
             {
                 "ABI_UI_MODULE_WORKSHOP_MISSING_DEPENDENCIES_DIALOG_ACCEPT",
                 "Compris"
-            }
+            },
+            { "ABI_UI_BUILD_RUNTIME_HEADER", "Mettre en ligne le contenu sur ChilloutVR" },
+            { "ABI_UI_BUILD_RUNTIME_BTN_NEXT", "Continuer vers l'étape suivante },
+            { "ABI_UI_BUILD_RUNTIME_BTN_PREV", "Retour à létape précedente" },
+            { "ABI_UI_BUILD_RUNTIME_BTN_NEW_PICTURE", "Remplacer l'image" },
+            { "ABI_UI_BUILD_RUNTIME_FILEINFO_ASSETBUNDLE", "Taille du fichier AssetBundle" },
+            { "ABI_UI_BUILD_RUNTIME_FILEINFO_IMAGE", "Taille du fichier image" },
+            { "ABI_UI_BUILD_RUNTIME_FILEINFO_MANIFEST", "Taille du fichier de manifest" },
+            { "ABI_UI_BUILD_RUNTIME_FILEINFO_PANO1K", "Taille du fichier 1080P Pano" },
+            { "ABI_UI_BUILD_RUNTIME_FILEINFO_PANO4K", "Taille du fichier 4K Pano" },
+            { "ABI_UI_BUILD_RUNTIME_HINT_CLICK_TO_CAPTURE", "Cliquer sur la petite image pour capturer une vignette" },
+            { "ABI_UI_BUILDSTEP_FILTERTAGS", "Tags de filtrage" },
+            { "ABI_UI_BUILDSTEP_DETAILS", "Détails" },
+            { "ABI_UI_BUILDSTEP_LEGAL", "Assurance juridique" },
+            { "ABI_UI_BUILDSTEP_UPLOAD", "Mettre en ligne le contenu" },
+            { "ABI_UI_BUILDSTEP_DETAILS_NAME_ROW", "Nom:" },
+            { "ABI_UI_BUILDSTEP_DETAILS_DESC_ROW", "Description:" },
+            { "ABI_UI_BUILDSTEP_DETAILS_NAME_PLACEHOLDER", "Nom de l'objet (obligatoire!)" },
+            { "ABI_UI_BUILDSTEP_DETAILS_DESC_PLACEHOLDER", "Description de l'objet" },
+            { "ABI_UI_BUILDSTEP_DETAILS_CHANGELOG_PLACEHOLDER", "Journal des modifications d'objet - dites aux utilisateurs ce que vous avez changé ou ajouté" },
+            {
+                "ABI_UI_BUILDSTEP_DETAILS_WARNING_NEW_OBJECT", 
+                "Cet objet est mis en ligne pour la première fois. Mettre en ligne une image de profile est obligatoire, à ce titre l'option de ne pas mettre en ligne d'image n'est pas disponible."
+            },
+            {
+                "ABI_UI_BUILDSTEP_DETAILS_WARNING_UPDATING_OBJECT", 
+                "Vous êtes sur le point de mettre à jour cet objet. Changer la description ou le nom n'est pas disponible pendant la mise à jour de l'objet. Veuillez changer ça sur le hub si besoin."
+            },
+            {
+                "ABI_UI_BUILDSTEP_DETAILS_SET_ACTIVE_FILE", 
+                "Définir cet upload en tant que fichier actif pour la plateforme cible"
+            },
+            {
+                "ABI_UI_BUILDSTEP_DETAILS_LEGAL_PERMISSION", 
+                "Je certifie par la présente que mon contenu mis en ligne m'appartient ou est sous licence pour moi. Je sais que mettre en ligne du contenu protégé sans la permission des auteurs peut rendre mon compte restraint et / ou avoir des conséquences légales. Je sais que je dois adhérer entièrement à l'ensemble de toutes les règles sur la création de contenu mentionnées dans les termes de service d'Alpha Blend Interactive."
+            },
+            {
+                "ABI_UI_BUILDSTEP_DETAILS_LEGAL_TAGS", 
+                "Je certifie par la présente que les tags sont correctement définis et correspondent au contenu mis en ligne. Je sais que définir sciemment les mauvais tags est une infraction grave. Je sais que mon compte sera puni si je continue encore de définir les mauvais tags."
+            },
+            {
+                "ABI_UI_BUILDSTEP_UPLOAD_STEP_DETAILS", 
+                "Votre contenu est maintenant en train d'être mis en ligne sur notre réseau. La procédure de mise en ligne est découpée en plusieurs étapes. Après avoir mis en ligne le fichier sur notre réseau, le fichier va subir des tests automatiques de sécurité, après que ces derniers soient passés, nous allons crypter votre bundle et l'envoyer vers notre CDN. Vous pouvez vérifier le status courant de votre mise en ligne ci-dessous."
+            },
+            {
+                "ABI_UI_BUILDSTEP_UPLOAD_DETAILS_MISSING", 
+                "Pour mettre en ligne du contenu sur notre plateforme, un nom est obligatoire. Lors de la mise en ligne d'un nouvel objet, assurez-vous de le nommer en conséquence. Vous allez maintenant être renvoyé vers la page pour saisir un nom."
+            },
+            {
+                "ABI_UI_BUILDSTEP_UPLOAD_LEGAL_MISSING", 
+                "Pour mettre en ligne du contenu sur notre plateforme, vous devez certifier que vous êtes autorisé à mettre en ligne le dit contenu et que tous les tags définis sont corrects. Vous allez maintenant être redirigé vers la page juridique pour examiner et accepter l'assurance juridique."
+            },
+            { "ABI_UI_DETAILS_HEAD_CHANGELOG", "Journal des modifications du contenu" },
+            { "ABI_UI_DETAILS_HEAD_STATISTICS", "Statistiques de fichier" },
+            { "ABI_UI_LEGAL_HEAD_OWNERSHIP", "Assurance Juridique: Propriété et Droit d'Auteur" },
+            { "ABI_UI_LEGAL_HEAD_TAGS", "Assurance Juridique: Tagging" },
+            { "ABI_UI_TAGS_HEADER_AUDIO", "Experience Audible " },
+            { "ABI_UI_TAGS_HEADER_VISUAL", "Experience Visuelle" },
+            { "ABI_UI_TAGS_HEADER_CONTENT", "Contenu" },
+            { "ABI_UI_TAGS_HEADER_NSFW", "Classification d'age palier" },
+            { "ABI_UI_TAGS_LOUD_AUDIO", "Audio Bruyant" },
+            { "ABI_UI_TAGS_LR_AUDIO", "Audio Longue Distance" },
+            { "ABI_UI_TAGS_SPAWN_AUDIO", "Spawn Audio" },
+            { "ABI_UI_TAGS_CONTAINS_MUSIC", "Contient de la musique" },
+            { "ABI_UI_TAGS_FLASHING_COLORS", "Couleurs clignotantes" },
+            { "ABI_UI_TAGS_FLASHING_LIGHTS", "Lumière clignotantes" },
+            { "ABI_UI_TAGS_EXTREMELY_BRIGHT", "Extrêmement lumineux" },
+            { "ABI_UI_TAGS_SCREEN_EFFECTS", "Effet d'écran" },
+            { "ABI_UI_TAGS_PARTICLE_SYSTEMS", "Système de particules" },
+            { "ABI_UI_TAGS_VIOLENCE", "Violence" },
+            { "ABI_UI_TAGS_GORE", "Gore" },
+            { "ABI_UI_TAGS_HORROR", "Horreur" },
+            { "ABI_UI_TAGS_JUMPSCARE", "Jumpscare" },
+            { "ABI_UI_TAGS_HUGE", "Excessivement énorme" },
+            { "ABI_UI_TAGS_SMALL", "Excessivement petit" },
+            { "ABI_UI_TAGS_SUGGESTIVE", "Suggestif" },
+            { "ABI_UI_TAGS_NUDITY", "Nudité" },
+            { "ABI_UI_API_RESPONSE_HEAD", "Status Courant" },
+            { "ABI_UI_API_RESPONSES_UPLOADED", "Le fichier est mis en ligne. Fichier en cours de traitement." },
+            { "ABI_UI_API_RESPONSES_SECURITY_CHECKING", "L'asset bundle est actuellement en train d'être vérifié par notre système de sécurité." },
+            { "ABI_UI_API_RESPONSES_ENCRYPTING", "Votre fichier d'asset bundle est actuellement en train d'être crypté." },
+            { "ABI_UI_API_RESPONSES_PUSHING", "Les vérifications sont complétées. Le fichier est en cours de transfert vers notre stockage." },
+            { "ABI_UI_API_RESPONSES_FINISHED", "Mise en ligne complétée. Votre contenu est maintenant disponible en jeu." },
         };
     }
 }

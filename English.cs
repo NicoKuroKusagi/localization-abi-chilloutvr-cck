@@ -276,6 +276,7 @@ namespace ABI.CCK.Scripts.Translation
             { "ABI_UI_BUILD_RUNTIME_FILEINFO_MANIFEST", "Manifest File Size" },
             { "ABI_UI_BUILD_RUNTIME_FILEINFO_PANO1K", "1080P Pano File Size" },
             { "ABI_UI_BUILD_RUNTIME_FILEINFO_PANO4K", "4K Pano File Size" },
+            { "ABI_UI_BUILD_RUNTIME_HINT_CLICK_TO_CAPTURE", "Click smaller image to capture thumbnail" },
             { "ABI_UI_BUILDSTEP_FILTERTAGS", "Filter Tags" },
             { "ABI_UI_BUILDSTEP_DETAILS", "Details" },
             { "ABI_UI_BUILDSTEP_LEGAL", "Legal Assurance" },

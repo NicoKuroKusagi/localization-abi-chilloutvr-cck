@@ -330,7 +330,7 @@ namespace ABI.CCK.Scripts.Translation
             { "ABI_UI_TAGS_SCREEN_EFFECTS", "Экранные эффекты" },
             { "ABI_UI_TAGS_PARTICLE_SYSTEMS", "Системы частиц" },
             { "ABI_UI_TAGS_VIOLENCE", "Насилие" },
-            { "ABI_UI_TAGS_GORE", "Расчленение" },
+            { "ABI_UI_TAGS_GORE", "Гуро" },
             { "ABI_UI_TAGS_HORROR", "Ужас" },
             { "ABI_UI_TAGS_JUMPSCARE", "Джампскейр" },
             { "ABI_UI_TAGS_HUGE", "Чрезмерно большой" },

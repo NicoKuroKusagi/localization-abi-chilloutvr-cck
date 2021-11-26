@@ -78,10 +78,10 @@ namespace ABI.CCK.Scripts.Translation
                 "ABI_UI_BUILDPANEL_SETTINGS_HINT_CONTENT_ENCRYPTION",
                 "アップロードに問題がある場合は、httpに切り替えてから試してください。"
             },
-            {"ABI_UI_BUILDPANEL_SETTINGS_CONTENT_REGION", "アップロード先地域:"},
+            {"ABI_UI_BUILDPANEL_SETTINGS_CONTENT_REGION", "優先アップロード地域:"},
             {
                 "ABI_UI_BUILDPANEL_SETTINGS_HINT_CONTENT_REGION",
-                "アップロード先地域を切り替える事で、アップロード速度を早める事が出来ます。選択されたアップロード先地域に関わらず、コンテンツはどの地域でも利用可能です。"
+                "アップロード速度を上げる為に、優先アップロード地域を切り替える事が出来ます。選択された地域が利用出来ない場合は、他地域が自動的に選択されます。あなたのコンテンツは、選択されたアップロード先地域に関係なく、世界中で利用可能です。"
             },
             {"ABI_UI_BUILDPANEL_SETTINGS_CCK_LANGUAGE", "CCKの言語:"},
             {
@@ -266,7 +266,83 @@ namespace ABI.CCK.Scripts.Translation
             {
                 "ABI_UI_MODULE_WORKSHOP_MISSING_DEPENDENCIES_DIALOG_ACCEPT",
                 "了解しました。"
-            }
+            },
+            { "ABI_UI_BUILD_RUNTIME_HEADER", "コンテンツをChilloutVRにアップロード" },
+            { "ABI_UI_BUILD_RUNTIME_BTN_NEXT", "次のステップに進む" },
+            { "ABI_UI_BUILD_RUNTIME_BTN_PREV", "最後のステップに戻る" },
+            { "ABI_UI_BUILD_RUNTIME_BTN_NEW_PICTURE", "画像の置換" },
+            { "ABI_UI_BUILDSTEP_FILTERTAGS", "タグでフィルター" },
+            { "ABI_UI_BUILDSTEP_DETAILS", "詳細" },
+            { "ABI_UI_BUILDSTEP_LEGAL", "法的保証" },
+            { "ABI_UI_BUILDSTEP_UPLOAD", "コンテンツをアップロード" },
+            { "ABI_UI_BUILDSTEP_DETAILS_NAME_ROW", "名前:" },
+            { "ABI_UI_BUILDSTEP_DETAILS_DESC_ROW", "説明:" },
+            { "ABI_UI_BUILDSTEP_DETAILS_NAME_PLACEHOLDER", "オブジェクト名(必須です!)" },
+            { "ABI_UI_BUILDSTEP_DETAILS_DESC_PLACEHOLDER", "オブジェクトの説明" },
+            { "ABI_UI_BUILDSTEP_DETAILS_CHANGELOG_PLACEHOLDER", "オブジェクトの変更ログ - ユーザに追加/変更点を伝える事が出来ます。" },
+            {
+                "ABI_UI_BUILDSTEP_DETAILS_WARNING_NEW_OBJECT", 
+                "このオブジェクトは初めてアップロードされます。プロフィール画像のアップロードが必須な為、画像をアップロードしないというオプションは利用出来ません。"
+            },
+            {
+                "ABI_UI_BUILDSTEP_DETAILS_WARNING_UPDATING_OBJECT", 
+                "このオブジェクトを更新しようとしています。このオブジェクトの更新中は、説明や名前の変更は出来ません。必要に応じてHubで変更してください。"
+            },
+            {
+                "ABI_UI_BUILDSTEP_DETAILS_SET_ACTIVE_FILE", 
+                "このアップロードファイルをターゲットプラットフォームのアクティブファイルとして設定する"
+            },
+            {
+                "ABI_UI_BUILDSTEP_DETAILS_LEGAL_PERMISSION", 
+                "私はここに、私のアップロードしたコンテンツが私に帰属するか、または私にライセンスされている事を証明します。私は、著作権のあるコンテンツを作者の許可なくアップロードすると、私のアカウントが制限されたり、法的な影響を受ける可能性がある事を承知します。私は、Alpha Blend Interactiveの利用規約に記載されている全てのコンテンツ作成ルールを完全に遵守しなければならない事を承知します。"
+            },
+            {
+                "ABI_UI_BUILDSTEP_DETAILS_LEGAL_TAGS", 
+                "私はここに、タグが正しく設定され、アップロードされたコンテンツに適合していることを証明します。私は、故意に間違ったタグを設定する事が重大な規約違反であることを承知します。私は、誤ったタグを設定し続けると、私のアカウントが処罰される事を承知します。"
+            },
+            {
+                "ABI_UI_BUILDSTEP_UPLOAD_STEP_DETAILS", 
+                "あなたのコンテンツがネットワークにアップロードされています。アップロード処理は様々なステップに分かれています。ファイルをネットワークにアップロードした後、ファイルは自動的にセキュリティチェックを受け、チェックを通過した後、データ一式を暗号化してCDNに反映します。現在のアップロード状況は、以下でご確認出来ます。"
+            },
+            {
+                "ABI_UI_BUILDSTEP_UPLOAD_DETAILS_MISSING", 
+                "当社のプラットフォームにコンテンツをアップロードするには、名前が必要です。新しいオブジェクトをアップロードする際には、必ず適切な名前を付けてください。ここから名前を入力する為の詳細ページに戻ります。"
+            },
+            {
+                "ABI_UI_BUILDSTEP_UPLOAD_LEGAL_MISSING", 
+                "当社のプラットフォームにアップロードするには、当該コンテンツをアップロードする事が許可されており、設定されているタグが全て正しい事を証明する必要があります。その後、法定ページに戻り、法的保証を確認・承諾していただきます。"
+            },
+            { "ABI_UI_DETAILS_HEAD_CHANGELOG", "コンテンツの変更履歴" },
+            { "ABI_UI_DETAILS_HEAD_STATISTICS", "ファイルの統計情報" },
+            { "ABI_UI_LEGAL_HEAD_OWNERSHIP", "法的保証: 所有者 & 著作権" },
+            { "ABI_UI_LEGAL_HEAD_TAGS", "法的保証: タグ付け" },
+            { "ABI_UI_TAGS_HEADER_AUDIO", "音響に関する項目" },
+            { "ABI_UI_TAGS_HEADER_VISUAL", "視覚に関する項目" },
+            { "ABI_UI_TAGS_HEADER_CONTENT", "コンテンツに関する項目" },
+            { "ABI_UI_TAGS_HEADER_NSFW", "年齢制限に関する項目" },
+            { "ABI_UI_TAGS_LOUD_AUDIO", "大音量" },
+            { "ABI_UI_TAGS_LR_AUDIO", "広域音" },
+            { "ABI_UI_TAGS_SPAWN_AUDIO", "音の発生" },
+            { "ABI_UI_TAGS_CONTAINS_MUSIC", "音楽" },
+            { "ABI_UI_TAGS_FLASHING_COLORS", "点滅を伴う発色" },
+            { "ABI_UI_TAGS_FLASHING_LIGHTS", "点滅を伴うライト" },
+            { "ABI_UI_TAGS_EXTREMELY_BRIGHT", "過度な照明" },
+            { "ABI_UI_TAGS_SCREEN_EFFECTS", "画面効果" },
+            { "ABI_UI_TAGS_PARTICLE_SYSTEMS", "パーティクルシステム" },
+            { "ABI_UI_TAGS_VIOLENCE", "暴力表現" },
+            { "ABI_UI_TAGS_GORE", "流血や残虐を伴う表現" },
+            { "ABI_UI_TAGS_HORROR", "ホラー表現" },
+            { "ABI_UI_TAGS_JUMPSCARE", "音や画像で驚かせるホラー表現" },
+            { "ABI_UI_TAGS_HUGE", "過度に大きい" },
+            { "ABI_UI_TAGS_SMALL", "過度に小さい" },
+            { "ABI_UI_TAGS_SUGGESTIVE", "性的に際どい表現" },
+            { "ABI_UI_TAGS_NUDITY", "裸体表現" },
+            { "ABI_UI_API_RESPONSE_HEAD", "現在の状況" },
+            { "ABI_UI_API_RESPONSES_UPLOADED", "ファイルがアップロードされました。現在ファイルを処理中です。" },
+            { "ABI_UI_API_RESPONSES_SECURITY_CHECKING", "アセットバンドルは現在、当社のセキュリティシステムによってチェック中です。" },
+            { "ABI_UI_API_RESPONSES_ENCRYPTING", "アセットバンドルファイルは現在暗号化中です。" },
+            { "ABI_UI_API_RESPONSES_PUSHING", "チェックは完了しました。ファイルは現在、当社のストレージに転送中です。" },
+            { "ABI_UI_API_RESPONSES_FINISHED", "アップロードが完了しました。コンテンツはゲームで利用可能です。" },
         };
     }
 }

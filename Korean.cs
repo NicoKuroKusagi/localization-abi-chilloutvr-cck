@@ -61,8 +61,8 @@ namespace ABI.CCK.Scripts.Translation
             {"ABI_UI_BUILDPANEL_SETTINGS_HEADER", "업로드 설정"},
             {"ABI_UI_BUILDPANEL_SETTINGS_CONTENT_ENCRYPTION", "연결 보안 방식 변경:"},
             {"ABI_UI_BUILDPANEL_SETTINGS_HINT_CONTENT_ENCRYPTION", "업로드에 문제가 생겼다면 http로 변경해 보세요."},
-            {"ABI_UI_BUILDPANEL_SETTINGS_CONTENT_REGION", "업로드 지역:"},
-            {"ABI_UI_BUILDPANEL_SETTINGS_HINT_CONTENT_REGION", "업로드 속도를 빠르게 하기 위해, 업로드 지역을 선택할 수 있습니다. 어느 지역에 업로드해도 어디서든 쓸 수 있습니다."},
+            {"ABI_UI_BUILDPANEL_SETTINGS_CONTENT_REGION", "선호하는 업로드 지역:"},
+            {"ABI_UI_BUILDPANEL_SETTINGS_HINT_CONTENT_REGION", "업로드 속도를 빠르게 하기 위해, 선호하는 업로드 지역을 선택할 수 있습니다. 만약 선택한 지역에 업로드하지 못 할 경우, 다른 지역이 자동으로 선택됩니다. 어느 지역에 업로드해도 해당 콘텐츠는 어디서든 쓸 수 있습니다."},
             {"ABI_UI_BUILDPANEL_SETTINGS_CCK_LANGUAGE", "콘텐츠 제작 키트(CCK) 언어:"},
             {"ABI_UI_BUILDPANEL_SETTINGS_HINT_CCK_LANGUAGE", "콘텐츠 제작 키트(CCK) 선호하는 언어로 변경해 알림이나 UI 텍스트를 원하는 언어로 변경할 수 있습니다."},
             {"ABI_UI_BUILDPANEL_WARNING_FOLDERPATH", "콘텐츠 제작 키트(CCK) 폴더의 위치나 Mods의 폴더의 위치를 옮기지 마세요. 콘텐츠 제작 키트가 사용 불가능하게 됩니다."},
@@ -222,6 +222,98 @@ namespace ABI.CCK.Scripts.Translation
                 "ABI_UI_AVATAR_INFO_EYE_VISEMES",
                 "바이스메(Visemes) 자동 선택을 활성화 하려면, 얼굴에 해당하는 메쉬(Mesh)를 선택해야 합니다. 보통 body 메쉬에 해당됩니다."
             },
+            {
+                "ABI_UI_MODULE_WORKSHOP_MISSING_DEPENDENCIES_TITLE",
+                "종속 요소가 프로젝트에 없습니다!"
+            },
+            {
+                "ABI_UI_MODULE_WORKSHOP_MISSING_DEPENDENCIES_WARNING_PREFACE",
+                "종속 요소가 없습니다"
+            },
+            {
+                "ABI_UI_MODULE_WORKSHOP_MISSING_DEPENDENCIES_FINAL_WARNING",
+                "이 모듈을 사용하기 전에 모든 종속 요소들을 설치해 주세요!"
+            },
+            {
+                "ABI_UI_MODULE_WORKSHOP_MISSING_DEPENDENCIES_DIALOG_ACCEPT",
+                "이해했음"
+            },
+            { "ABI_UI_BUILD_RUNTIME_HEADER", "칠아웃VR(ChilloutVR)에 콘텐츠 업로드" },
+            { "ABI_UI_BUILD_RUNTIME_BTN_NEXT", "다음 단계로" },
+            { "ABI_UI_BUILD_RUNTIME_BTN_PREV", "이전 단계로" },
+            { "ABI_UI_BUILD_RUNTIME_BTN_NEW_PICTURE", "이미지 교체" },
+            { "ABI_UI_BUILDSTEP_FILTERTAGS", "태그 필터" },
+            { "ABI_UI_BUILDSTEP_DETAILS", "자세히" },
+            { "ABI_UI_BUILDSTEP_LEGAL", "법적 보증" },
+            { "ABI_UI_BUILDSTEP_UPLOAD", "콘텐츠 업로드" },
+            { "ABI_UI_BUILDSTEP_DETAILS_NAME_ROW", "이름:" },
+            { "ABI_UI_BUILDSTEP_DETAILS_DESC_ROW", "설명:" },
+            { "ABI_UI_BUILDSTEP_DETAILS_NAME_PLACEHOLDER", "오브젝트 이름(필수)" },
+            { "ABI_UI_BUILDSTEP_DETAILS_DESC_PLACEHOLDER", "오브젝트 설명" },
+            { "ABI_UI_BUILDSTEP_DETAILS_CHANGELOG_PLACEHOLDER", "오브젝트 변경사항 - 유저들에게 뭐가 바뀌거나 추가되었는지 알리세요" },
+            {
+                "ABI_UI_BUILDSTEP_DETAILS_WARNING_NEW_OBJECT", 
+                "이 오브젝트는 처음 업로드됩니다. 프로필 사진이 필요합니다. 이미지를 업로드하지 않는 옵션은 허용되지 않습니다."
+            },
+            {
+                "ABI_UI_BUILDSTEP_DETAILS_WARNING_UPDATING_OBJECT", 
+                "오브젝트를 업데이트하려고 합니다. 설명이나 이름을 바꾸는 건 업데이트 중에서는 불가능합니다. 필요할 경우, 허브에서 바꿔주세요."
+            },
+            {
+                "ABI_UI_BUILDSTEP_DETAILS_SET_ACTIVE_FILE", 
+                "대상 플랫폼에서 사용 가능하도록 업로드"
+            },
+            {
+                "ABI_UI_BUILDSTEP_DETAILS_LEGAL_PERMISSION", 
+                "(번역에 차이가 있을 시 영어 원문을 따라갑니다.) 내가 업로드하는 콘텐츠가 내 것 혹은 내가 라이선스를 취득한 것임을 증명합니다. 원작자의 허락 없이 저작권이 있는 콘텐츠를 업로드하는 것은 내 계정이 제한되고 법적인 조치를 받을 수 있다는 것을 인지했습니다. Alpha Blend Interactive의 이용 규약에 언급된 콘텐츠 제작 규칙을 따라야 하는 것에 동의합니다."
+            },
+            {
+                "ABI_UI_BUILDSTEP_DETAILS_LEGAL_TAGS", 
+                "(번역에 차이가 있을 시 영어 원문을 따라갑니다.) 태그가 정확하게 입려된 것을 확인합니다. 잘못된 태그를 입력하는 것이 타인에게 매우 공격적인 행동이 될 것을 인지했습니다. 태그를 지속적으로 잘못 설정하면 계정에 제재될 수 있다는 것을 인지했습니다."
+            },
+            {
+                "ABI_UI_BUILDSTEP_UPLOAD_STEP_DETAILS", 
+                "콘텐츠가 네트워크에 업로드되고 있습니다. 업로드 과정은 여러 단계를 거칩니다. 콘텐츠가 업로드되면, 파일은 자동적으로 보안 검사를 진행하고, 통과됐을 경우에 암호화 단계를 거쳐 CDN에 업로드됩니다. 아래에서 현재 상태를 확인할 수 있습니다."
+            },
+            {
+                "ABI_UI_BUILDSTEP_UPLOAD_DETAILS_MISSING", 
+                "콘텐츠를 업로드하기 위해서는 이름이 필요합니다. 새 오브젝트를 올릴 때는, 이름이 잘 붙어있는지 확인하세요. 이름을 입력하기 위해서 상세 정보 설정 페이지로 돌아갑니다."
+            },
+            {
+                "ABI_UI_BUILDSTEP_UPLOAD_LEGAL_MISSING", 
+                "콘텐츠를 업로드하기 위해서는, 태그가 정확해야 하고 이 콘텐츠를 업로드하기 위한 허락에 대한 확인이 필요합니다. 확인 페이지로 돌아갑니다."
+            },
+            { "ABI_UI_DETAILS_HEAD_CHANGELOG", "콘텐츠 변동사항" },
+            { "ABI_UI_DETAILS_HEAD_STATISTICS", "파일 통계" },
+            { "ABI_UI_LEGAL_HEAD_OWNERSHIP", "법적 보증: 소유권 & 저작권" },
+            { "ABI_UI_LEGAL_HEAD_TAGS", "법적 보증: 태그" },
+            { "ABI_UI_TAGS_HEADER_AUDIO", "소리(Audible Experience)" },
+            { "ABI_UI_TAGS_HEADER_VISUAL", "시야(Visual Experience)" },
+            { "ABI_UI_TAGS_HEADER_CONTENT", "콘텐츠" },
+            { "ABI_UI_TAGS_HEADER_NSFW", "연령 제한 분류" },
+            { "ABI_UI_TAGS_LOUD_AUDIO", "큰 소리" },
+            { "ABI_UI_TAGS_LR_AUDIO", "멀리까지 들리는 소리" },
+            { "ABI_UI_TAGS_SPAWN_AUDIO", "입장 음악" },
+            { "ABI_UI_TAGS_CONTAINS_MUSIC", "음악을 포함함" },
+            { "ABI_UI_TAGS_FLASHING_COLORS", "반짝이는 색" },
+            { "ABI_UI_TAGS_FLASHING_LIGHTS", "반짝이는 빛" },
+            { "ABI_UI_TAGS_EXTREMELY_BRIGHT", "매우 밝음" },
+            { "ABI_UI_TAGS_SCREEN_EFFECTS", "화면 효과" },
+            { "ABI_UI_TAGS_PARTICLE_SYSTEMS", "파티클 시스템" },
+            { "ABI_UI_TAGS_VIOLENCE", "폭력" },
+            { "ABI_UI_TAGS_GORE", "고어" },
+            { "ABI_UI_TAGS_HORROR", "공포" },
+            { "ABI_UI_TAGS_JUMPSCARE", "갑자기 툭 튀어나오는 것" },
+            { "ABI_UI_TAGS_HUGE", "매우 큼" },
+            { "ABI_UI_TAGS_SMALL", "매우 작음" },
+            { "ABI_UI_TAGS_SUGGESTIVE", "선정적" },
+            { "ABI_UI_TAGS_NUDITY", "벌거벗음" },
+            { "ABI_UI_API_RESPONSE_HEAD", "현재 상태" },
+            { "ABI_UI_API_RESPONSES_UPLOADED", "파일이 업로드되었습니다. 파일을 처리하고 있습니다." },
+            { "ABI_UI_API_RESPONSES_SECURITY_CHECKING", "보안 시스템이 에셋 번들을 검사중입니다." },
+            { "ABI_UI_API_RESPONSES_ENCRYPTING", "에셋 번들이 암호화되고 있습니다." },
+            { "ABI_UI_API_RESPONSES_PUSHING", "확인이 완료되었습니다. 저장소로 파일을 전송하고 있습니다." },
+            { "ABI_UI_API_RESPONSES_FINISHED", "업로드에 성공했습니다. 게임 내에서 확인 가능합니다." },
         };
     }
 }

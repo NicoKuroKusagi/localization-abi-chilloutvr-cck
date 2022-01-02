@@ -202,7 +202,7 @@ namespace ABI.CCK.Scripts.Translation
             },
             {
                 "ABI_UI_ADVAVTR_TRIGGER_PARTICLE_HELPBOX",
-                "Ved å aktivere dette alternativet, vil det gi partikel systemer som har en peker på det samme GameObjektet evnen til å aktiveres gjennom en trigger. Partikler kan bare slås på ved On Enter Trigger."
+                "Ved å aktivere dette alternativet, vil det gi partikkel systemer som har en peker på det samme GameObjektet evnen til å aktiveres gjennom en trigger. Partikler kan bare slås på ved On Enter Trigger."
             },
             {
                 "ABI_UI_INFOTEXT_WORLDS_NO_AVATARS",
@@ -337,7 +337,7 @@ namespace ABI.CCK.Scripts.Translation
             { "ABI_UI_TAGS_SCREEN_EFFECTS", "Skjerm Effekter" },
             { "ABI_UI_TAGS_PARTICLE_SYSTEMS", "Partikkel Systemer" },
             { "ABI_UI_TAGS_VIOLENCE", "Vold" },
-            { "ABI_UI_TAGS_GORE", "Gore" },
+            { "ABI_UI_TAGS_GORE", "Grotesk" },
             { "ABI_UI_TAGS_HORROR", "Skrekk" },
             { "ABI_UI_TAGS_JUMPSCARE", "Jumpscare" },
             { "ABI_UI_TAGS_HUGE", "Overdrivende Stor" },
